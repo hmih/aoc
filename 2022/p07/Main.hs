@@ -16,74 +16,93 @@ deriving instance Show a => Show (Tree a)
 
 data Path a where
   Top :: Path a
-  Level :: Eq a => Tree a -> Path a -> Path a
+  Level :: Eq a => [Tree a] -> Path a -> [Tree a] -> Path a
 
 deriving instance Show a => Show (Path a)
 
 data Zipper a = Zipper (Path a) (Tree a) deriving (Show)
 
--- main :: IO ()
--- main = do
---  input <- I.readFile "in"
---  let split = T.lines input
---      tree = (Node "/" [Leaf 0 "a.txt", Leaf 1 "b.txt", Node "etc" [Leaf 2 "i.log", Leaf 4 "k.log", Node "lib" [Leaf 5 "glibc"]], Node "bin" [Leaf 6 "ls"]])
---      zipper = Zipper Top tree
---  print zipper
---  print $ down zipper
---  print $ right $ down zipper
---  print $ left $ right $ down zipper
---  print $ down $ left $ right $ down zipper
---  print $ up $ down $ left $ right $ down zipper
-
 main :: IO ()
 main = do
   input <- I.readFile "in"
   let split = T.lines input
-      tree = mkFS split
+      tree =
+        ( Node
+            "/"
+            [ Leaf 0 "a.txt",
+              Leaf 1 "b.txt",
+              Node
+                "etc"
+                [ Leaf 2 "i.log",
+                  Leaf 4 "k.log",
+                  Node "lib" [Leaf 5 "glibc"]
+                ],
+              Node "bin" [Leaf 6 "ls"]
+            ]
+        )
       zipper = Zipper Top tree
-  print tree
+  print zipper
+  print $ down zipper
+  -- print $ right $ down zipper
+  -- print $ left $ right $ down zipper
+  -- print $ right $ right $ left $ right $ down zipper
+  print $ right $ down zipper
+  print $ right $ right $ down zipper
+  print $ right $ right $ right $ down zipper
+  print $ down $ right $ right $ down zipper
+  print $ right $ down $ right $ right $ down zipper
+  print $ right $ right $ down $ right $ right $ down zipper
+  print $ down $ right $ right $ down $ right $ right $ down zipper
+  print $ up $ up $ up $ down $ right $ right $ down $ right $ right $ down zipper
 
-mkFS :: [T.Text] -> Tree T.Text
-mkFS [] = Leaf 0 ".end"
-mkFS (x : xs) =
-  let isCD = T.isPrefixOf "$ cd" x
-      isLS = x == "$ ls"
-      isDir = T.isPrefixOf "dir" x
-      isFile = R.decimal (fst $ T.breakOn " " x)
-   in if isCD
-        then Leaf 1 "hi"
-        else Leaf 0 ""
+-- print $ up $ down $ right $ right $ left $ right $ down zipper
 
-up :: Zipper a -> Zipper a
-up (Zipper (Level _ Top) _) = error "hit top, empty"
-up (Zipper (Level _ path) _) =
-  let dirs = (nodes . leaves) path
-      dir = if L.null dirs then error "empty up" else L.head dirs
-   in Zipper path dir
+-- main :: IO ()
+-- main = do
+--  input <- I.readFile "in"
+--  let split = T.lines input
+--      tree = mkFS split
+--      zipper = Zipper Top tree
+--  print tree
 
-down :: Zipper a -> Zipper a
-down (Zipper _ (Leaf _ _)) = error "hit leaf, cannot go down"
-down (Zipper path curr@(Node _ xs)) =
-  let dirs = nodes xs
-      dir = if L.null dirs then error "empty down" else L.head dirs
-   in Zipper (Level curr path) dir
-
-right :: Zipper a -> Zipper a
-right (Zipper path (Node name _)) =
-  let dirs = (nodes . leaves) path
-      others = L.dropWhile (\(Node n _) -> n /= name) dirs
-      dir = (head . tail) others
-   in if L.length others < 2 then error "cannot go more right" else Zipper path dir
+-- mkFS :: [T.Text] -> Tree T.Text
+-- mkFS [] = Leaf 0 ".end"
+-- mkFS (x : xs) =
+--  let isCD = T.isPrefixOf "$ cd" x
+--      isLS = x == "$ ls"
+--      isDir = T.isPrefixOf "dir" x
+--      isFile = R.decimal (fst $ T.breakOn " " x)
+--   in if isCD
+--        then Leaf 1 "hi"
+--        else Leaf 0 ""
 
 left :: Zipper a -> Zipper a
-left (Zipper path (Node name _)) =
-  let dirs = (nodes . leaves) path
-      others = L.takeWhile (\(Node n _) -> n /= name) dirs
-      dir = L.last others
-   in if L.null others then error "cannot go more left" else Zipper path dir
+left (Zipper Top _) = error "left of top"
+left (Zipper (Level [] _ _) _) = error "cannot go more left"
+left (Zipper (Level (l : ls) p rs) t) = Zipper (Level ls p (t : rs)) l
 
-nodes :: [Tree a] -> [Tree a]
-nodes xs = [x | x@(Node _ _) <- xs]
+right :: Zipper a -> Zipper a
+right (Zipper Top _) = error "right of top"
+right (Zipper (Level _ _ []) _) = error "cannot go more right"
+right (Zipper (Level ls p (r : rs)) t) = Zipper (Level (t : ls) p rs) r
 
-leaves :: Path a -> [Tree a]
-leaves (Level (Node _ xs) _) = xs
+up :: Zipper a -> Zipper a
+up (Zipper Top _) = error "up top"
+up (Zipper (Level ls p rs) t) =
+  let xs = (L.reverse ls) ++ (t : rs)
+   in Zipper p (Node (name t) xs)
+
+down :: Zipper a -> Zipper a
+down (Zipper _ (Leaf _ _)) = error "down low"
+down (Zipper _ (Node _ [])) = error "cannot go down on empty"
+down (Zipper p (Node n (x : xs))) = Zipper (Level [] p xs) x
+
+-- nodes :: [Tree a] -> [Tree a]
+-- nodes xs = [x | x@(Node _ _) <- xs]
+--
+-- leaves :: Path a -> [Tree a]
+-- leaves (Level (Node _ xs) _) = xs
+
+name :: Tree a -> a
+name (Leaf _ x) = x
+name (Node x _) = x
