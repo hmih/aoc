@@ -23,4 +23,4 @@ main = do
 
 mkGroups :: String -> [String]
 mkGroups [] = []
-mkGroups x = [(L.take chunkSize x)] ++ mkGroups (L.drop 1 x)
+mkGroups x = (L.take chunkSize x) : mkGroups (L.drop 1 x)
