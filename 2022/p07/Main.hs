@@ -1,108 +1,215 @@
-{-# LANGUAGE DataKinds #-}
 {-# LANGUAGE OverloadedStrings #-}
 
 module Main where
 
+import qualified Data.Either as E
 import qualified Data.List as L
+import qualified Data.Maybe as M
 import qualified Data.Text as T
 import qualified Data.Text.IO as I
 import qualified Data.Text.Read as R
+import qualified Debug.Trace as T
 
+emptyFile :: Tree T.Text
+emptyFile = Leaf "_" 0
+
+emptyDir :: Tree T.Text
+emptyDir = Node "_" [emptyFile]
+
+-- customized implementation of "The Zipper" by Gerard Huet
 data Tree a where
-  Leaf :: Eq a => Int -> a -> Tree a
-  Node :: Eq a => a -> [Tree a] -> Tree a
+  Leaf :: (Eq a) => a -> Int -> Tree a
+  Node :: (Eq a) => a -> [Tree a] -> Tree a
 
-deriving instance Show a => Show (Tree a)
+deriving instance (Show a) => Show (Tree a)
 
+-- Level(l,p,r) contains its list l of elder siblings (starting with the eldest),
+-- its father path p, and its list of younger siblings (starting with the youngest).
 data Path a where
   Top :: Path a
-  Level :: Eq a => [Tree a] -> Path a -> [Tree a] -> Path a
+  Level :: (Eq a) => a -> [Tree a] -> Path a -> [Tree a] -> Path a
 
-deriving instance Show a => Show (Path a)
+deriving instance (Show a) => Show (Path a)
 
-data Zipper a = Zipper (Path a) (Tree a) deriving (Show)
+data Zipper a = Zipper {focus :: Tree a, path :: Path a} deriving (Show)
 
-main :: IO ()
-main = do
-  input <- I.readFile "in"
-  let split = T.lines input
-      tree =
-        ( Node
-            "/"
-            [ Leaf 0 "a.txt",
-              Leaf 1 "b.txt",
-              Node
-                "etc"
-                [ Leaf 2 "i.log",
-                  Leaf 4 "k.log",
-                  Node "lib" [Leaf 5 "glibc"]
-                ],
-              Node "bin" [Leaf 6 "ls"]
-            ]
-        )
-      zipper = Zipper Top tree
-  print zipper
-  print $ down zipper
-  -- print $ right $ down zipper
-  -- print $ left $ right $ down zipper
-  -- print $ right $ right $ left $ right $ down zipper
-  print $ right $ down zipper
-  print $ right $ right $ down zipper
-  print $ right $ right $ right $ down zipper
-  print $ down $ right $ right $ down zipper
-  print $ right $ down $ right $ right $ down zipper
-  print $ right $ right $ down $ right $ right $ down zipper
-  print $ down $ right $ right $ down $ right $ right $ down zipper
-  print $ up $ up $ up $ down $ right $ right $ down $ right $ right $ down zipper
+left :: Zipper a -> M.Maybe (Zipper a)
+left (Zipper _ Top) = M.Nothing
+left (Zipper _ (Level _ [] _ _)) = M.Nothing
+left (Zipper t (Level n (l : ls) p rs)) = M.Just $ Zipper l (Level n ls p (t : rs))
 
--- print $ up $ down $ right $ right $ left $ right $ down zipper
+right :: Zipper a -> M.Maybe (Zipper a)
+right (Zipper _ Top) = M.Nothing
+right (Zipper _ (Level _ _ _ [])) = M.Nothing
+right (Zipper t (Level n ls p (r : rs))) = M.Just $ Zipper r (Level n (t : ls) p rs)
+
+up :: Zipper a -> M.Maybe (Zipper a)
+up (Zipper _ Top) = M.Nothing
+up (Zipper t (Level n ls p rs)) = M.Just $ Zipper (Node n (L.reverse ls ++ [t] ++ rs)) p
+
+down :: Zipper a -> M.Maybe (Zipper a)
+down (Zipper (Leaf _ _) _) = M.Nothing
+down (Zipper (Node _ []) _) = M.Nothing
+down (Zipper (Node n (x : xs)) p) = M.Just $ Zipper x (Level n [] p xs)
+
+insertRight :: Zipper a -> Tree a -> Zipper a
+insertRight (Zipper _ Top) _ = error "cannot insert right on top"
+insertRight (Zipper t (Level n ls p rs)) r = Zipper t (Level n ls p (r : rs))
+
+insertLeft :: Zipper a -> Tree a -> Zipper a
+insertLeft (Zipper _ Top) _ = error "cannot insert left on top"
+insertLeft (Zipper t (Level n ls p rs)) l = Zipper t (Level n (l : ls) p rs)
+
+insertDown :: Zipper a -> Tree a -> Zipper a
+insertDown (Zipper _ Top) _ = error "cannot insert down on top"
+insertDown (Zipper (Leaf _ _) _) _ = error "cannot insert down on leaf"
+insertDown (Zipper (Node n xs) p) t = Zipper t (Level n [] p xs)
+
+delete :: Zipper a -> Zipper a
+delete (Zipper _ Top) = error "cannot delete top"
+delete (Zipper _ (Level n ls p (r : rs))) = Zipper r (Level n ls p rs)
+delete (Zipper _ (Level n (l : ls) p [])) = Zipper l (Level n ls p [])
+delete (Zipper _ (Level n [] p [])) = Zipper (Node n []) (Level n [] p [])
+
+-- puzzle implementation
+isDir :: a -> M.Maybe (Zipper a) -> M.Maybe (Zipper a)
+isDir _ M.Nothing = M.Nothing
+isDir _ (M.Just (Zipper (Leaf _ _) _)) = M.Nothing
+isDir x (M.Just z@(Zipper (Node n _) _)) = if n == x then down z else M.Nothing
+
+muntil :: (Zipper a -> M.Maybe (Zipper a)) -> M.Maybe (Zipper a) -> [M.Maybe (Zipper a)]
+muntil _ M.Nothing = []
+muntil f (M.Just x) = let res = f x in res : muntil f res
+
+visitDir :: (Show a) => Zipper a -> a -> M.Maybe (Zipper a)
+visitDir z x =
+  let wrapped = M.Just z
+      paths = (muntil left wrapped) ++ (muntil right wrapped)
+      reduced = M.catMaybes $ fmap (isDir x) paths
+      res = M.Just $ L.head reduced
+   in if L.null reduced
+        then T.trace (show paths) M.Nothing
+        else
+          if (L.length reduced) == 1
+            then res
+            else error "many folders"
+
+parseCD :: Zipper T.Text -> T.Text -> Zipper T.Text
+parseCD z x =
+  let name = T.strip x
+      z' = visitDir z name
+      exists = M.isJust z'
+      err = error $ "cannot go into unknown directory: " ++ show name
+   in M.fromJust $ case name of
+        ".." -> up z
+        _ -> if exists then z' else err
+
+addLeaf :: Zipper T.Text -> T.Text -> Zipper T.Text
+addLeaf z x =
+  let parts = T.splitOn " " x
+      disc = parts !! 0
+      name = parts !! 1
+      num = fst $ E.fromRight (0, "err") (R.decimal disc)
+   in case disc of
+        "dir" -> insertRight z (Node name [emptyFile])
+        _ -> insertRight z (Leaf name num)
+
+parseLS :: Zipper T.Text -> [T.Text] -> (Zipper T.Text, [T.Text])
+parseLS z [] = (z, [])
+parseLS z xs =
+  let contents = L.takeWhile (not . T.isPrefixOf "$ ") xs
+      xs' = L.drop (L.length contents) xs
+      z' = foldl addLeaf z contents
+   in (z', xs')
+
+parseCmd :: Zipper T.Text -> [T.Text] -> (Zipper T.Text, [T.Text])
+parseCmd z [] = (z, [])
+parseCmd z (x : xs) =
+  let cmd = T.take 2 $ T.drop 2 $ T.strip x
+      arg = T.strip $ T.drop 5 x
+      lsArg = not $ T.null arg
+      errArg = error $ "expected naked ls, got " ++ show arg
+      errBot = error $ "impossible, found " ++ show x
+   in case cmd of
+        "cd" -> (parseCD z arg, xs)
+        "ls" -> if lsArg then errArg else parseLS z xs
+        _ -> errBot
+
+eval :: Zipper T.Text -> [T.Text] -> Zipper T.Text
+eval z [] = z
+eval z cmds@(x : _) =
+  let (z', xs') = parseCmd z cmds
+      err = error $ "expected command, got " ++ show x
+      res = eval z' xs'
+   in if (not $ T.isPrefixOf "$ " x) then err else res
+
+treeSize :: Zipper T.Text -> [(T.Text, Int)]
+treeSize z@(Zipper _ Top) = (treeSize . M.fromJust . down) z
+treeSize z@(Zipper _ (Level name ls _ rs)) =
+  let ts = ls ++ rs
+      -- construct faux Node for level, the focus could be a Leaf
+      dir = Node name ts
+      names = M.mapMaybe justDirs ts
+      zips = M.catMaybes $ fmap (visitDir z) names
+      rec = L.concatMap treeSize zips
+   in [(name, size dir)] ++ rec
+  where
+    size :: Tree a -> Int
+    size (Leaf _ x) = x
+    size (Node _ xs) = L.sum $ fmap size xs
+
+    justDirs :: Tree a -> M.Maybe a
+    justDirs (Leaf _ _) = M.Nothing
+    justDirs (Node n _) = M.Just n
+
+toTop :: Zipper a -> Zipper a
+toTop z =
+  let x = up z
+   in case x of
+        M.Nothing -> z
+        (M.Just z') -> toTop z'
+
+-- p1
+atMost :: Int
+atMost = 100000
 
 -- main :: IO ()
 -- main = do
 --  input <- I.readFile "in"
---  let split = T.lines input
---      tree = mkFS split
---      zipper = Zipper Top tree
---  print tree
+--  let cmds = tail $ T.lines input
+--      -- create top level node
+--      z = M.fromJust $ down $ Zipper (Node "/" [emptyFile]) Top
+--      z' = eval z cmds
+--      top = M.fromJust $ down $ toTop z'
+--      size = treeSize top
+--      filtered = L.filter (\(_, s) -> s <= atMost) size
+--      answer = (L.sum . fmap (\(_, s) -> s)) filtered
+--  print size
+--  print filtered
+--  print answer
 
--- mkFS :: [T.Text] -> Tree T.Text
--- mkFS [] = Leaf 0 ".end"
--- mkFS (x : xs) =
---  let isCD = T.isPrefixOf "$ cd" x
---      isLS = x == "$ ls"
---      isDir = T.isPrefixOf "dir" x
---      isFile = R.decimal (fst $ T.breakOn " " x)
---   in if isCD
---        then Leaf 1 "hi"
---        else Leaf 0 ""
+-- p2
+totalSpace :: Int
+totalSpace = 70000000
 
-left :: Zipper a -> Zipper a
-left (Zipper Top _) = error "left of top"
-left (Zipper (Level [] _ _) _) = error "cannot go more left"
-left (Zipper (Level (l : ls) p rs) t) = Zipper (Level ls p (t : rs)) l
+needAtleast :: Int
+needAtleast = 30000000
 
-right :: Zipper a -> Zipper a
-right (Zipper Top _) = error "right of top"
-right (Zipper (Level _ _ []) _) = error "cannot go more right"
-right (Zipper (Level ls p (r : rs)) t) = Zipper (Level (t : ls) p rs) r
-
-up :: Zipper a -> Zipper a
-up (Zipper Top _) = error "up top"
-up (Zipper (Level ls p rs) t) =
-  let xs = (L.reverse ls) ++ (t : rs)
-   in Zipper p (Node (name t) xs)
-
-down :: Zipper a -> Zipper a
-down (Zipper _ (Leaf _ _)) = error "down low"
-down (Zipper _ (Node _ [])) = error "cannot go down on empty"
-down (Zipper p (Node n (x : xs))) = Zipper (Level [] p xs) x
-
--- nodes :: [Tree a] -> [Tree a]
--- nodes xs = [x | x@(Node _ _) <- xs]
---
--- leaves :: Path a -> [Tree a]
--- leaves (Level (Node _ xs) _) = xs
-
-name :: Tree a -> a
-name (Leaf _ x) = x
-name (Node x _) = x
+main :: IO ()
+main = do
+  input <- I.readFile "in"
+  let cmds = tail $ T.lines input
+      -- create top level node
+      z = M.fromJust $ down $ Zipper (Node "/" [emptyFile]) Top
+      z' = eval z cmds
+      top = M.fromJust $ down $ toTop z'
+      size = treeSize top
+      usedSpace = snd $ L.head size
+      availableSpace = totalSpace - usedSpace
+      toFreeUp = needAtleast - availableSpace
+      filtered = L.filter (\(_, s) -> s >= toFreeUp) size
+      answer = (L.minimum . fmap (\(_, s) -> s)) filtered
+  print size
+  print availableSpace
+  print toFreeUp
+  print answer
