@@ -8,7 +8,8 @@ import qualified Data.Maybe as M
 import qualified Data.Text as T
 import qualified Data.Text.IO as I
 import qualified Data.Text.Read as R
-import qualified Debug.Trace as T
+
+-- import qualified Debug.Trace as T
 
 emptyFile :: Tree T.Text
 emptyFile = Leaf "_" 0
@@ -72,37 +73,36 @@ delete (Zipper _ (Level n (l : ls) p [])) = Zipper l (Level n ls p [])
 delete (Zipper _ (Level n [] p [])) = Zipper (Node n []) (Level n [] p [])
 
 -- puzzle implementation
-isDir :: a -> M.Maybe (Zipper a) -> M.Maybe (Zipper a)
-isDir _ M.Nothing = M.Nothing
-isDir _ (M.Just (Zipper (Leaf _ _) _)) = M.Nothing
-isDir x (M.Just z@(Zipper (Node n _) _)) = if n == x then down z else M.Nothing
+isDir :: a -> M.Maybe (Zipper a) -> Bool
+isDir _ M.Nothing = False
+isDir _ (M.Just (Zipper (Leaf _ _) _)) = False
+isDir x (M.Just (Zipper (Node n _) _)) = n == x
 
-muntil :: (Zipper a -> M.Maybe (Zipper a)) -> M.Maybe (Zipper a) -> [M.Maybe (Zipper a)]
-muntil _ M.Nothing = []
-muntil f (M.Just x) = let res = f x in res : muntil f res
+muntil :: (a -> M.Maybe a) -> a -> [M.Maybe a]
+muntil f z = case f z of
+  M.Nothing -> []
+  m@(M.Just v) -> m : muntil f v
 
 visitDir :: (Show a) => Zipper a -> a -> M.Maybe (Zipper a)
 visitDir z x =
-  let wrapped = M.Just z
-      paths = (muntil left wrapped) ++ (muntil right wrapped)
-      reduced = M.catMaybes $ fmap (isDir x) paths
-      res = M.Just $ L.head reduced
-   in if L.null reduced
-        then T.trace (show paths) M.Nothing
+  let paths = (muntil left z) ++ (muntil right z)
+      zips = L.filter (isDir x) paths
+      intoDir = (down . M.fromJust . L.head) zips
+   in if L.null zips
+        then M.Nothing
         else
-          if (L.length reduced) == 1
-            then res
+          if (L.length zips) == 1
+            then intoDir
             else error "many folders"
 
 parseCD :: Zipper T.Text -> T.Text -> Zipper T.Text
 parseCD z x =
   let name = T.strip x
       z' = visitDir z name
-      exists = M.isJust z'
       err = error $ "cannot go into unknown directory: " ++ show name
    in M.fromJust $ case name of
         ".." -> up z
-        _ -> if exists then z' else err
+        _ -> if M.isJust z' then z' else err
 
 addLeaf :: Zipper T.Text -> T.Text -> Zipper T.Text
 addLeaf z x =
