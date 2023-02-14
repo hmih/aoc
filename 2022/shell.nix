@@ -12,9 +12,13 @@ let
     config = {};   # potentially override system config
     overlays = []; # set overlays
   };
-  ghc = pkgs.haskell.compiler.ghc94;
-in
-pkgs.stdenv.mkDerivation {
+  ghcEnv = pkgs.haskell.packages.ghc94.ghcWithPackages (
+    ps: with ps; [
+      vector
+      hmatrix
+    ]
+  );
+in pkgs.stdenv.mkDerivation {
   name = "advent-of-code";
-  buildInputs = [ ghc pkgs.hlint ];
+  buildInputs = [ ghcEnv pkgs.hlint ];
 }
