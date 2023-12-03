@@ -11,9 +11,5 @@ let
   );
 in pkgs.mkShellNoCC {
   name = "advent-of-code";
-  buildInputs = [ ghcEnv pkgs.hlint ];
+  buildInputs = with pkgs; [ ghcEnv hlint ormolu python3 ];
 }
-#pkgs.mkShellNoCC {
-#  name = "advent-of-code";
-#  buildInputs = with pkgs; [ zsh idris2 racket-minimal ];
-#}
