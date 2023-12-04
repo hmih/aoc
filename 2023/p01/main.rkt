@@ -1,35 +1,49 @@
 #!/usr/bin/env racket
 #lang typed/racket/base
 (require racket/file)
-(require racket/list)
 (require racket/string)
+(require racket/match)
+(require racket/list)
 
 (: words (Listof String))
-(define words '("zero" "one" "two" "three" "four" "five" "six" "seven" "eight" "nine"))
+(define words '("one" "two" "three" "four" "five" "six" "seven" "eight" "nine"))
 
-(: only-nums (-> String (Listof Char)))
-(define (only-nums xs)
-  (let* ([letters (string->list xs)]
-         [digits (filter char-numeric? letters)]
-         [worded : (Listof String) (filter (lambda ([w : String]) (string-contains? xs w)) words)]
-         [words : (Listof Char) (map (lambda w (index-of words w)) worded)])
-    (append digits words)))
+(: digits (Listof String))
+(define digits '("1" "2" "3" "4" "5" "6" "7" "8" "9"))
 
-(: concat (-> (Listof Char) Number))
-(define (concat xs) 
-  (let* ([fst (first xs)]
-         [snd (last xs)]
-         [both (string fst snd)]
-         [parsed (string->number both 10)]
-         [res (if (number? parsed) parsed (error "Wtf breh"))])
-    res))
+(: extract (-> String (Listof String)))
+(define (extract s)
+  (define has-word (filter (lambda ([w : String]) (string-prefix? s w)) words))
+  (define has-digit (filter (lambda ([d : String]) (string-prefix? s d)) digits))
+  (assert (<= (length has-word) 1))
+  (assert (<= (length has-digit) 1))
+  (define symbol (match (list has-word has-digit)
+    ['(() ())          "z"]
+    [(list (list w) '()) w]
+    [(list '() (list d)) d]
+    [_ (error "err: " (list has-word has-digit) "on: " s)]))
+  (define truncated (substring s (string-length symbol)))
+  (define parsed (if (member symbol words)
+                   (number->string (+ 1 (assert (index-of words symbol))))
+                   (if (member symbol digits)
+                     symbol
+                     #f)))
+  (append 
+    (if parsed (list parsed) '())
+    (if (non-empty-string? truncated) (extract truncated) '())))
 
-(: run Void)
-(define run
-  (let* ([lines (file->lines "in")]
-        [digits (map only-nums lines)]
-        [parsed (map concat digits)]
-        [res (foldl + 0 parsed)])
-    (println res)))
+(: run (-> Void))
+(define (run)
+  (define lines (file->lines "in"))
+  (define nums (map extract lines))
+  (: res Integer)
+  (define res (for/fold ([acc 0])
+                        ([ns nums])
+      (define combined (string-append (first ns) (last ns)))
+      (define num (assert (string->number combined) exact-integer?))
+      (println (list "from: " ns " got: " combined))
+      (+ acc num)))
+  (println res)
+  (println "done!"))
 
-run
+(run)
