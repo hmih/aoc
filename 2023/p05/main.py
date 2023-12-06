@@ -9,28 +9,27 @@ Map = tuple[str, Entries]
 
 def mapper(ranges: Ranges, mapping: Map) -> Ranges:
     name, vals = mapping
-    res = []
     print(f"{name=} takes {ranges}")
+    res = []
 
-    for start, end in ranges:
-        assert start <= end, f"Bad seed range: {name=} {start=} {end=}"
+    for entry in vals:
+        dst, lo, size = entry
+        hi = lo + size - 1
+        assert lo <= hi, f"Bad map interval: {name=} {lo=} {hi=}"
 
-        for entry in vals:
-            dst, lo, size = entry
-            hi = lo + size
-            assert lo <= hi, f"Bad map interval: {name=} {lo=} {hi=}"
-            remapped = split(start, end, lo, hi, dst)
-            res.extend(remapped)
+        tmp = []
 
-        if not res:
-            default = (start, end)
-            res.append(default)
+        for start, end in ranges:
+            assert start <= end, f"Bad seed range: {name=} {start=} {end=}"
+            (mapped, unmapped) = split(start, end, lo, hi, dst)
+            res.extend(mapped)
+            tmp.extend(unmapped)
 
     print(f"{name=} produces {res}")
     return res
 
 
-def split(start, end, lo, hi, dst) -> Ranges:
+def split(start, end, lo, hi, dst) -> tuple[Ranges, Ranges]:
     res: Ranges = []
 
     # 1) ignore lower & upper: low outside / high outside
@@ -62,47 +61,72 @@ def split(start, end, lo, hi, dst) -> Ranges:
     return res
 
 
+def read_maps(lines):
+    res = {}
+    tmp = []
+
+    for line in lines:
+        if line:
+            tmp.append(line)
+            continue
+
+        header = tmp.pop(0).split(" ")[0]
+        entries = [list(map(int, t.split(" "))) for t in tmp]
+        res[header] = entries
+        tmp = []
+
+    if tmp:
+        header = tmp.pop(0).split(" ")[0]
+        entries = [list(map(int, t.split(" "))) for t in tmp]
+        res[header] = entries
+
+    return res
+
+
+def test_splits():
+    tests = [
+        ([1, 3, 4, 6, 4], []),
+        ([7, 9, 4, 6, 4], []),
+        ([5, 9, 4, 6, 10], [(11, 12), (7, 9)]),
+        ([1, 2, 2, 3, 4], [(1, 1), (4, 4)]),
+        ([1, 4, 2, 3, 4], [(1, 1), (4, 5), (4, 4)]),
+    ]
+
+    for g, e in tests:
+        tmp = split(*g)
+        assert tmp == e, f"{tmp} != {e}"
+
+
 def run():
+    maps = {}
+    seeds = []
+
+    test_splits()
+
     with open("in") as f:
         lines = [l.strip() for l in f.readlines()]
         seedline = [int(x) for x in lines.pop(0).split(": ")[1].strip().split()]
         seeds = [(seedline[i], seedline[i + 1]) for i in range(0, len(seedline), 2)]
         lines.pop(0)
+        maps = read_maps(lines)
 
-        maps = {}
-        tmpmap = []
-        finals = []
+    finals = []
 
-        for line in lines:
-            if line:
-                tmpmap.append(line)
-                continue
+    # seeds: start, end, amount
+    # maps: lo, hi, size
+    for seed, amount in seeds:
+        ranges = [(seed, seed + amount - 1)]
 
-            header = tmpmap.pop(0).split(" ")[0]
-            entries = [list(map(int, t.split(" "))) for t in tmpmap]
-            maps[header] = entries
-            tmpmap = []
+        for name, vals in maps.items():
+            tmp = mapper(ranges, (name, vals))
+            ranges = tmp
 
-        if tmpmap:
-            header = tmpmap.pop(0).split(" ")[0]
-            entries = [list(map(int, t.split(" "))) for t in tmpmap]
-            maps[header] = entries
-            tmpmap = []
+        finals.extend(ranges)
 
-        # seeds: start, end, amount
-        # maps: lo, hi, size
-        for seed, amount in seeds:
-            ranges = [(seed, seed + amount - 1)]
-
-            for name, vals in maps.items():
-                tmp = mapper(ranges, (name, vals))
-                ranges = tmp
-
-            finals.extend(ranges)
-
-        # 60294664
-        res = sorted(finals)
-        pprint(res[:10])
+    # 60294664
+    res = sorted(finals)
+    pprint(res[:5])
+    pprint(min(res)[0])
 
 
 run()
