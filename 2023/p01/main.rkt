@@ -17,31 +17,30 @@
   (define has-digit (filter (lambda ([d : String]) (string-prefix? s d)) digits))
   (assert (<= (length has-word) 1))
   (assert (<= (length has-digit) 1))
-  (define symbol (match (list has-word has-digit)
-    ['(() ())          "z"]
-    [(list (list w) '()) w]
-    [(list '() (list d)) d]
-    [_ (error "err: " (list has-word has-digit) "on: " s)]))
+  (define symbol
+    (match (list has-word has-digit)
+      ['(() ()) "z"]
+      [(list (list w) '()) w]
+      [(list '() (list d)) d]
+      [_ (error "err: " (list has-word has-digit) "on: " s)]))
   (define truncated (substring s (string-length symbol)))
-  (define parsed (if (member symbol words)
-                   (number->string (+ 1 (assert (index-of words symbol))))
-                   (if (member symbol digits)
-                     symbol
-                     #f)))
+  (define parsed
+    (if (member symbol words)
+        (number->string (+ 1 (assert (index-of words symbol))))
+        (if (member symbol digits) symbol #f)))
   (append 
-    (if parsed (list parsed) '())
+    (if parsed (list parsed) '()) 
     (if (non-empty-string? truncated) (extract truncated) '())))
 
 (: run (-> Void))
 (define (run)
   (define lines (file->lines "in"))
   (define nums (map extract lines))
-  (: res Integer)
-  (define res (for/fold ([acc 0])
-                        ([ns nums])
+  (define res
+    (for/fold ([acc : Integer 0])
+              ([ns nums])
       (define combined (string-append (first ns) (last ns)))
       (define num (assert (string->number combined) exact-integer?))
-      (println (list "from: " ns " got: " combined))
       (+ acc num)))
   (println res)
   (println "done!"))
