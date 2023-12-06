@@ -1,3 +1,5 @@
+from pprint import pprint
+
 Range = tuple[int, int]
 Ranges = list[Range]
 Entry = tuple[int, int, int]
@@ -16,7 +18,7 @@ def mapper(ranges: Ranges, mapping: Map) -> Ranges:
         for entry in vals:
             dst, lo, size = entry
             hi = lo + size
-            assert lo < hi, f"Bad map interval: {name=} {lo=} {hi=}"
+            assert lo <= hi, f"Bad map interval: {name=} {lo=} {hi=}"
             remapped = split(start, end, lo, hi, dst)
             res.extend(remapped)
 
@@ -40,16 +42,13 @@ def split(start, end, lo, hi, dst) -> Ranges:
         pass
     elif start < lo and lo <= end <= hi:
         fst = (start, lo - 1)
-        snd = (dst, dst + (end - lo))
+        snd = (dst, dst + end - lo)
         res = [fst, snd]
     elif lo <= start <= hi and lo <= end <= hi:
-        bot_offset = start - lo
-        top_offset = end - lo
-        fst = (dst + bot_offset, dst + top_offset)
+        fst = (dst + start - lo, dst + end - lo)
         res = [fst]
     elif lo <= start <= hi and end > hi:
-        bot_offset = start - lo
-        fst = (dst + bot_offset, dst + hi - lo)
+        fst = (dst + start - lo, dst + hi - lo)
         snd = (hi + 1, end)
         res = [fst, snd]
     elif start < lo and end > hi:
@@ -101,8 +100,9 @@ def run():
 
             finals.extend(ranges)
 
-        # wtf is it the upper one
-        print(min(finals)[1])
+        # 60294664
+        res = sorted(finals)
+        pprint(res[:10])
 
 
 run()
