@@ -1,0 +1,1001 @@
+rawhand='75682' hand='87652' clsf=(0, '8', '7', '6', '5', '2')	: res=0 += bid=960 * rank=1
+rawhand='75468' hand='87654' clsf=(0, '8', '7', '6', '5', '4')	: res=960 += bid=282 * rank=2
+rawhand='75496' hand='97654' clsf=(0, '9', '7', '6', '5', '4')	: res=1524 += bid=4 * rank=3
+rawhand='93528' hand='98532' clsf=(0, '9', '8', '5', '3', '2')	: res=1536 += bid=31 * rank=4
+rawhand='85926' hand='98652' clsf=(0, '9', '8', '6', '5', '2')	: res=1660 += bid=435 * rank=5
+rawhand='49586' hand='98654' clsf=(0, '9', '8', '6', '5', '4')	: res=3835 += bid=515 * rank=6
+rawhand='59873' hand='98753' clsf=(0, '9', '8', '7', '5', '3')	: res=6925 += bid=555 * rank=7
+rawhand='84697' hand='98764' clsf=(0, '9', '8', '7', '6', '4')	: res=10810 += bid=581 * rank=8
+rawhand='3562T' hand='T6532' clsf=(0, 'T', '6', '5', '3', '2')	: res=15458 += bid=877 * rank=9
+rawhand='T6245' hand='T6542' clsf=(0, 'T', '6', '5', '4', '2')	: res=23351 += bid=917 * rank=10
+rawhand='27T34' hand='T7432' clsf=(0, 'T', '7', '4', '3', '2')	: res=32521 += bid=134 * rank=11
+rawhand='2T476' hand='T7642' clsf=(0, 'T', '7', '6', '4', '2')	: res=33995 += bid=90 * rank=12
+rawhand='52T67' hand='T7652' clsf=(0, 'T', '7', '6', '5', '2')	: res=35075 += bid=177 * rank=13
+rawhand='5637T' hand='T7653' clsf=(0, 'T', '7', '6', '5', '3')	: res=37376 += bid=734 * rank=14
+rawhand='T8325' hand='T8532' clsf=(0, 'T', '8', '5', '3', '2')	: res=47652 += bid=888 * rank=15
+rawhand='T2784' hand='T8742' clsf=(0, 'T', '8', '7', '4', '2')	: res=60972 += bid=59 * rank=16
+rawhand='T8275' hand='T8752' clsf=(0, 'T', '8', '7', '5', '2')	: res=61916 += bid=436 * rank=17
+rawhand='T3785' hand='T8753' clsf=(0, 'T', '8', '7', '5', '3')	: res=69328 += bid=237 * rank=18
+rawhand='T6782' hand='T8762' clsf=(0, 'T', '8', '7', '6', '2')	: res=73594 += bid=898 * rank=19
+rawhand='3T549' hand='T9543' clsf=(0, 'T', '9', '5', '4', '3')	: res=90656 += bid=811 * rank=20
+rawhand='694T2' hand='T9642' clsf=(0, 'T', '9', '6', '4', '2')	: res=106876 += bid=679 * rank=21
+rawhand='9T634' hand='T9643' clsf=(0, 'T', '9', '6', '4', '3')	: res=121135 += bid=231 * rank=22
+rawhand='T5297' hand='T9752' clsf=(0, 'T', '9', '7', '5', '2')	: res=126217 += bid=133 * rank=23
+rawhand='T5974' hand='T9754' clsf=(0, 'T', '9', '7', '5', '4')	: res=129276 += bid=181 * rank=24
+rawhand='T6379' hand='T9763' clsf=(0, 'T', '9', '7', '6', '3')	: res=133620 += bid=661 * rank=25
+rawhand='4938T' hand='T9843' clsf=(0, 'T', '9', '8', '4', '3')	: res=150145 += bid=156 * rank=26
+rawhand='469T8' hand='T9864' clsf=(0, 'T', '9', '8', '6', '4')	: res=154201 += bid=72 * rank=27
+rawhand='6T789' hand='T9876' clsf=(0, 'T', '9', '8', '7', '6')	: res=156145 += bid=167 * rank=28
+rawhand='436J2' hand='W6432' clsf=(0, 'W', '6', '4', '3', '2')	: res=160821 += bid=685 * rank=29
+rawhand='J2357' hand='W7532' clsf=(0, 'W', '7', '5', '3', '2')	: res=180686 += bid=196 * rank=30
+rawhand='J2475' hand='W7542' clsf=(0, 'W', '7', '5', '4', '2')	: res=186566 += bid=495 * rank=31
+rawhand='62J57' hand='W7652' clsf=(0, 'W', '7', '6', '5', '2')	: res=201911 += bid=890 * rank=32
+rawhand='456J8' hand='W8654' clsf=(0, 'W', '8', '6', '5', '4')	: res=230391 += bid=15 * rank=33
+rawhand='2J876' hand='W8762' clsf=(0, 'W', '8', '7', '6', '2')	: res=230886 += bid=713 * rank=34
+rawhand='J3768' hand='W8763' clsf=(0, 'W', '8', '7', '6', '3')	: res=255128 += bid=536 * rank=35
+rawhand='J4739' hand='W9743' clsf=(0, 'W', '9', '7', '4', '3')	: res=273888 += bid=816 * rank=36
+rawhand='J7495' hand='W9754' clsf=(0, 'W', '9', '7', '5', '4')	: res=303264 += bid=628 * rank=37
+rawhand='J6729' hand='W9762' clsf=(0, 'W', '9', '7', '6', '2')	: res=326500 += bid=467 * rank=38
+rawhand='835J9' hand='W9853' clsf=(0, 'W', '9', '8', '5', '3')	: res=344246 += bid=601 * rank=39
+rawhand='3J698' hand='W9863' clsf=(0, 'W', '9', '8', '6', '3')	: res=367685 += bid=837 * rank=40
+rawhand='6J32T' hand='WT632' clsf=(0, 'W', 'T', '6', '3', '2')	: res=401165 += bid=380 * rank=41
+rawhand='J547T' hand='WT754' clsf=(0, 'W', 'T', '7', '5', '4')	: res=416745 += bid=595 * rank=42
+rawhand='7T6J2' hand='WT762' clsf=(0, 'W', 'T', '7', '6', '2')	: res=441735 += bid=977 * rank=43
+rawhand='J5T82' hand='WT852' clsf=(0, 'W', 'T', '8', '5', '2')	: res=483746 += bid=718 * rank=44
+rawhand='584JT' hand='WT854' clsf=(0, 'W', 'T', '8', '5', '4')	: res=515338 += bid=743 * rank=45
+rawhand='89TJ4' hand='WT984' clsf=(0, 'W', 'T', '9', '8', '4')	: res=548773 += bid=245 * rank=46
+rawhand='Q4635' hand='X6543' clsf=(0, 'X', '6', '5', '4', '3')	: res=560043 += bid=558 * rank=47
+rawhand='25Q47' hand='X7542' clsf=(0, 'X', '7', '5', '4', '2')	: res=586269 += bid=739 * rank=48
+rawhand='473Q6' hand='X7643' clsf=(0, 'X', '7', '6', '4', '3')	: res=621741 += bid=988 * rank=49
+rawhand='4853Q' hand='X8543' clsf=(0, 'X', '8', '5', '4', '3')	: res=670153 += bid=476 * rank=50
+rawhand='86Q35' hand='X8653' clsf=(0, 'X', '8', '6', '5', '3')	: res=693953 += bid=764 * rank=51
+rawhand='8734Q' hand='X8743' clsf=(0, 'X', '8', '7', '4', '3')	: res=732917 += bid=538 * rank=52
+rawhand='Q4578' hand='X8754' clsf=(0, 'X', '8', '7', '5', '4')	: res=760893 += bid=294 * rank=53
+rawhand='8Q756' hand='X8765' clsf=(0, 'X', '8', '7', '6', '5')	: res=776475 += bid=163 * rank=54
+rawhand='2Q695' hand='X9652' clsf=(0, 'X', '9', '6', '5', '2')	: res=785277 += bid=273 * rank=55
+rawhand='Q3749' hand='X9743' clsf=(0, 'X', '9', '7', '4', '3')	: res=800292 += bid=295 * rank=56
+rawhand='Q9756' hand='X9765' clsf=(0, 'X', '9', '7', '6', '5')	: res=816812 += bid=30 * rank=57
+rawhand='Q8965' hand='X9865' clsf=(0, 'X', '9', '8', '6', '5')	: res=818522 += bid=139 * rank=58
+rawhand='2T6Q5' hand='XT652' clsf=(0, 'X', 'T', '6', '5', '2')	: res=826584 += bid=559 * rank=59
+rawhand='5QT27' hand='XT752' clsf=(0, 'X', 'T', '7', '5', '2')	: res=859565 += bid=959 * rank=60
+rawhand='754TQ' hand='XT754' clsf=(0, 'X', 'T', '7', '5', '4')	: res=917105 += bid=74 * rank=61
+rawhand='Q38T2' hand='XT832' clsf=(0, 'X', 'T', '8', '3', '2')	: res=921619 += bid=709 * rank=62
+rawhand='Q5T96' hand='XT965' clsf=(0, 'X', 'T', '9', '6', '5')	: res=965577 += bid=417 * rank=63
+rawhand='59Q7T' hand='XT975' clsf=(0, 'X', 'T', '9', '7', '5')	: res=991848 += bid=944 * rank=64
+rawhand='6QJ23' hand='XW632' clsf=(0, 'X', 'W', '6', '3', '2')	: res=1052264 += bid=746 * rank=65
+rawhand='Q743J' hand='XW743' clsf=(0, 'X', 'W', '7', '4', '3')	: res=1100754 += bid=200 * rank=66
+rawhand='2Q93J' hand='XW932' clsf=(0, 'X', 'W', '9', '3', '2')	: res=1113954 += bid=755 * rank=67
+rawhand='8J49Q' hand='XW984' clsf=(0, 'X', 'W', '9', '8', '4')	: res=1164539 += bid=458 * rank=68
+rawhand='5QT2J' hand='XWT52' clsf=(0, 'X', 'W', 'T', '5', '2')	: res=1195683 += bid=854 * rank=69
+rawhand='6Q3JT' hand='XWT63' clsf=(0, 'X', 'W', 'T', '6', '3')	: res=1254609 += bid=909 * rank=70
+rawhand='7QTJ5' hand='XWT75' clsf=(0, 'X', 'W', 'T', '7', '5')	: res=1318239 += bid=363 * rank=71
+rawhand='7QTJ6' hand='XWT76' clsf=(0, 'X', 'W', 'T', '7', '6')	: res=1344012 += bid=152 * rank=72
+rawhand='Q69JT' hand='XWT96' clsf=(0, 'X', 'W', 'T', '9', '6')	: res=1354956 += bid=939 * rank=73
+rawhand='TJ79Q' hand='XWT97' clsf=(0, 'X', 'W', 'T', '9', '7')	: res=1423503 += bid=969 * rank=74
+rawhand='7K523' hand='Y7532' clsf=(0, 'Y', '7', '5', '3', '2')	: res=1495209 += bid=985 * rank=75
+rawhand='475K6' hand='Y7654' clsf=(0, 'Y', '7', '6', '5', '4')	: res=1569084 += bid=109 * rank=76
+rawhand='4K586' hand='Y8654' clsf=(0, 'Y', '8', '6', '5', '4')	: res=1577368 += bid=760 * rank=77
+rawhand='74K28' hand='Y8742' clsf=(0, 'Y', '8', '7', '4', '2')	: res=1635888 += bid=523 * rank=78
+rawhand='K4923' hand='Y9432' clsf=(0, 'Y', '9', '4', '3', '2')	: res=1676682 += bid=752 * rank=79
+rawhand='2935K' hand='Y9532' clsf=(0, 'Y', '9', '5', '3', '2')	: res=1736090 += bid=543 * rank=80
+rawhand='93K65' hand='Y9653' clsf=(0, 'Y', '9', '6', '5', '3')	: res=1779530 += bid=966 * rank=81
+rawhand='K6945' hand='Y9654' clsf=(0, 'Y', '9', '6', '5', '4')	: res=1857776 += bid=322 * rank=82
+rawhand='2K597' hand='Y9752' clsf=(0, 'Y', '9', '7', '5', '2')	: res=1884180 += bid=742 * rank=83
+rawhand='39K28' hand='Y9832' clsf=(0, 'Y', '9', '8', '3', '2')	: res=1945766 += bid=665 * rank=84
+rawhand='9K584' hand='Y9854' clsf=(0, 'Y', '9', '8', '5', '4')	: res=2001626 += bid=564 * rank=85
+rawhand='K8693' hand='Y9863' clsf=(0, 'Y', '9', '8', '6', '3')	: res=2049566 += bid=871 * rank=86
+rawhand='2897K' hand='Y9872' clsf=(0, 'Y', '9', '8', '7', '2')	: res=2124472 += bid=321 * rank=87
+rawhand='5TK47' hand='YT754' clsf=(0, 'Y', 'T', '7', '5', '4')	: res=2152399 += bid=395 * rank=88
+rawhand='K268T' hand='YT862' clsf=(0, 'Y', 'T', '8', '6', '2')	: res=2187159 += bid=967 * rank=89
+rawhand='5T9K4' hand='YT954' clsf=(0, 'Y', 'T', '9', '5', '4')	: res=2273222 += bid=780 * rank=90
+rawhand='4T9K6' hand='YT964' clsf=(0, 'Y', 'T', '9', '6', '4')	: res=2343422 += bid=997 * rank=91
+rawhand='K5T89' hand='YT985' clsf=(0, 'Y', 'T', '9', '8', '5')	: res=2434149 += bid=243 * rank=92
+rawhand='3KJ75' hand='YW753' clsf=(0, 'Y', 'W', '7', '5', '3')	: res=2456505 += bid=547 * rank=93
+rawhand='5KJ74' hand='YW754' clsf=(0, 'Y', 'W', '7', '5', '4')	: res=2507376 += bid=866 * rank=94
+rawhand='627JK' hand='YW762' clsf=(0, 'Y', 'W', '7', '6', '2')	: res=2588780 += bid=894 * rank=95
+rawhand='87K5J' hand='YW875' clsf=(0, 'Y', 'W', '8', '7', '5')	: res=2673710 += bid=730 * rank=96
+rawhand='4K92J' hand='YW942' clsf=(0, 'Y', 'W', '9', '4', '2')	: res=2743790 += bid=33 * rank=97
+rawhand='4J9K8' hand='YW984' clsf=(0, 'Y', 'W', '9', '8', '4')	: res=2746991 += bid=353 * rank=98
+rawhand='32KJT' hand='YWT32' clsf=(0, 'Y', 'W', 'T', '3', '2')	: res=2781585 += bid=733 * rank=99
+rawhand='2JT9K' hand='YWT92' clsf=(0, 'Y', 'W', 'T', '9', '2')	: res=2854152 += bid=136 * rank=100
+rawhand='Q46K3' hand='YX643' clsf=(0, 'Y', 'X', '6', '4', '3')	: res=2867752 += bid=20 * rank=101
+rawhand='5K6Q2' hand='YX652' clsf=(0, 'Y', 'X', '6', '5', '2')	: res=2869772 += bid=971 * rank=102
+rawhand='QK327' hand='YX732' clsf=(0, 'Y', 'X', '7', '3', '2')	: res=2968814 += bid=750 * rank=103
+rawhand='KQ467' hand='YX764' clsf=(0, 'Y', 'X', '7', '6', '4')	: res=3046064 += bid=64 * rank=104
+rawhand='7QK65' hand='YX765' clsf=(0, 'Y', 'X', '7', '6', '5')	: res=3052720 += bid=716 * rank=105
+rawhand='53Q8K' hand='YX853' clsf=(0, 'Y', 'X', '8', '5', '3')	: res=3127900 += bid=257 * rank=106
+rawhand='Q42K9' hand='YX942' clsf=(0, 'Y', 'X', '9', '4', '2')	: res=3155142 += bid=147 * rank=107
+rawhand='9K5Q2' hand='YX952' clsf=(0, 'Y', 'X', '9', '5', '2')	: res=3170871 += bid=341 * rank=108
+rawhand='95K3Q' hand='YX953' clsf=(0, 'Y', 'X', '9', '5', '3')	: res=3207699 += bid=279 * rank=109
+rawhand='9K8Q4' hand='YX984' clsf=(0, 'Y', 'X', '9', '8', '4')	: res=3238110 += bid=464 * rank=110
+rawhand='K3TQ7' hand='YXT73' clsf=(0, 'Y', 'X', 'T', '7', '3')	: res=3289150 += bid=115 * rank=111
+rawhand='TQ5K8' hand='YXT85' clsf=(0, 'Y', 'X', 'T', '8', '5')	: res=3301915 += bid=819 * rank=112
+rawhand='TQK49' hand='YXT94' clsf=(0, 'Y', 'X', 'T', '9', '4')	: res=3393643 += bid=748 * rank=113
+rawhand='QT95K' hand='YXT95' clsf=(0, 'Y', 'X', 'T', '9', '5')	: res=3478167 += bid=285 * rank=114
+rawhand='Q9T6K' hand='YXT96' clsf=(0, 'Y', 'X', 'T', '9', '6')	: res=3510657 += bid=513 * rank=115
+rawhand='8QK4J' hand='YXW84' clsf=(0, 'Y', 'X', 'W', '8', '4')	: res=3569652 += bid=233 * rank=116
+rawhand='KQJT7' hand='YXWT7' clsf=(0, 'Y', 'X', 'W', 'T', '7')	: res=3596680 += bid=501 * rank=117
+rawhand='4732A' hand='Z7432' clsf=(0, 'Z', '7', '4', '3', '2')	: res=3655297 += bid=420 * rank=118
+rawhand='37A25' hand='Z7532' clsf=(0, 'Z', '7', '5', '3', '2')	: res=3704857 += bid=300 * rank=119
+rawhand='6347A' hand='Z7643' clsf=(0, 'Z', '7', '6', '4', '3')	: res=3740557 += bid=497 * rank=120
+rawhand='823A4' hand='Z8432' clsf=(0, 'Z', '8', '4', '3', '2')	: res=3800197 += bid=457 * rank=121
+rawhand='6A328' hand='Z8632' clsf=(0, 'Z', '8', '6', '3', '2')	: res=3855494 += bid=246 * rank=122
+rawhand='4A638' hand='Z8643' clsf=(0, 'Z', '8', '6', '4', '3')	: res=3885506 += bid=880 * rank=123
+rawhand='6A583' hand='Z8653' clsf=(0, 'Z', '8', '6', '5', '3')	: res=3993746 += bid=814 * rank=124
+rawhand='687A5' hand='Z8765' clsf=(0, 'Z', '8', '7', '6', '5')	: res=4094682 += bid=528 * rank=125
+rawhand='592A6' hand='Z9652' clsf=(0, 'Z', '9', '6', '5', '2')	: res=4160682 += bid=449 * rank=126
+rawhand='654A9' hand='Z9654' clsf=(0, 'Z', '9', '6', '5', '4')	: res=4217256 += bid=700 * rank=127
+rawhand='3769A' hand='Z9763' clsf=(0, 'Z', '9', '7', '6', '3')	: res=4306156 += bid=429 * rank=128
+rawhand='3298A' hand='Z9832' clsf=(0, 'Z', '9', '8', '3', '2')	: res=4361068 += bid=325 * rank=129
+rawhand='8A294' hand='Z9842' clsf=(0, 'Z', '9', '8', '4', '2')	: res=4402993 += bid=57 * rank=130
+rawhand='834A9' hand='Z9843' clsf=(0, 'Z', '9', '8', '4', '3')	: res=4410403 += bid=688 * rank=131
+rawhand='8692A' hand='Z9862' clsf=(0, 'Z', '9', '8', '6', '2')	: res=4500531 += bid=844 * rank=132
+rawhand='4A2T5' hand='ZT542' clsf=(0, 'Z', 'T', '5', '4', '2')	: res=4611939 += bid=984 * rank=133
+rawhand='6AT54' hand='ZT654' clsf=(0, 'Z', 'T', '6', '5', '4')	: res=4742811 += bid=79 * rank=134
+rawhand='4T7A5' hand='ZT754' clsf=(0, 'Z', 'T', '7', '5', '4')	: res=4753397 += bid=956 * rank=135
+rawhand='26T7A' hand='ZT762' clsf=(0, 'Z', 'T', '7', '6', '2')	: res=4882457 += bid=345 * rank=136
+rawhand='73A6T' hand='ZT763' clsf=(0, 'Z', 'T', '7', '6', '3')	: res=4929377 += bid=106 * rank=137
+rawhand='T42A8' hand='ZT842' clsf=(0, 'Z', 'T', '8', '4', '2')	: res=4943899 += bid=624 * rank=138
+rawhand='A38T4' hand='ZT843' clsf=(0, 'Z', 'T', '8', '4', '3')	: res=5030011 += bid=968 * rank=139
+rawhand='T3A68' hand='ZT863' clsf=(0, 'Z', 'T', '8', '6', '3')	: res=5164563 += bid=432 * rank=140
+rawhand='78T2A' hand='ZT872' clsf=(0, 'Z', 'T', '8', '7', '2')	: res=5225043 += bid=112 * rank=141
+rawhand='T8A47' hand='ZT874' clsf=(0, 'Z', 'T', '8', '7', '4')	: res=5240835 += bid=613 * rank=142
+rawhand='TA259' hand='ZT952' clsf=(0, 'Z', 'T', '9', '5', '2')	: res=5327881 += bid=173 * rank=143
+rawhand='93T5A' hand='ZT953' clsf=(0, 'Z', 'T', '9', '5', '3')	: res=5352620 += bid=365 * rank=144
+rawhand='A75T9' hand='ZT975' clsf=(0, 'Z', 'T', '9', '7', '5')	: res=5405180 += bid=425 * rank=145
+rawhand='5A32J' hand='ZW532' clsf=(0, 'Z', 'W', '5', '3', '2')	: res=5466805 += bid=943 * rank=146
+rawhand='AJ482' hand='ZW842' clsf=(0, 'Z', 'W', '8', '4', '2')	: res=5604483 += bid=255 * rank=147
+rawhand='JA946' hand='ZW964' clsf=(0, 'Z', 'W', '9', '6', '4')	: res=5641968 += bid=582 * rank=148
+rawhand='A937J' hand='ZW973' clsf=(0, 'Z', 'W', '9', '7', '3')	: res=5728104 += bid=37 * rank=149
+rawhand='57A9J' hand='ZW975' clsf=(0, 'Z', 'W', '9', '7', '5')	: res=5733617 += bid=996 * rank=150
+rawhand='59J8A' hand='ZW985' clsf=(0, 'Z', 'W', '9', '8', '5')	: res=5883017 += bid=692 * rank=151
+rawhand='TA48J' hand='ZWT84' clsf=(0, 'Z', 'W', 'T', '8', '4')	: res=5987509 += bid=618 * rank=152
+rawhand='5JAT8' hand='ZWT85' clsf=(0, 'Z', 'W', 'T', '8', '5')	: res=6081445 += bid=778 * rank=153
+rawhand='8A7TJ' hand='ZWT87' clsf=(0, 'Z', 'W', 'T', '8', '7')	: res=6200479 += bid=682 * rank=154
+rawhand='9JAT5' hand='ZWT95' clsf=(0, 'Z', 'W', 'T', '9', '5')	: res=6305507 += bid=487 * rank=155
+rawhand='23Q7A' hand='ZX732' clsf=(0, 'Z', 'X', '7', '3', '2')	: res=6380992 += bid=878 * rank=156
+rawhand='72Q5A' hand='ZX752' clsf=(0, 'Z', 'X', '7', '5', '2')	: res=6517960 += bid=908 * rank=157
+rawhand='57AQ4' hand='ZX754' clsf=(0, 'Z', 'X', '7', '5', '4')	: res=6660516 += bid=671 * rank=158
+rawhand='382QA' hand='ZX832' clsf=(0, 'Z', 'X', '8', '3', '2')	: res=6766534 += bid=320 * rank=159
+rawhand='A568Q' hand='ZX865' clsf=(0, 'Z', 'X', '8', '6', '5')	: res=6817414 += bid=98 * rank=160
+rawhand='QA459' hand='ZX954' clsf=(0, 'Z', 'X', '9', '5', '4')	: res=6833094 += bid=456 * rank=161
+rawhand='A96Q2' hand='ZX962' clsf=(0, 'Z', 'X', '9', '6', '2')	: res=6906510 += bid=302 * rank=162
+rawhand='7A6Q9' hand='ZX976' clsf=(0, 'Z', 'X', '9', '7', '6')	: res=6955434 += bid=220 * rank=163
+rawhand='A984Q' hand='ZX984' clsf=(0, 'Z', 'X', '9', '8', '4')	: res=6991294 += bid=821 * rank=164
+rawhand='QAT42' hand='ZXT42' clsf=(0, 'Z', 'X', 'T', '4', '2')	: res=7125938 += bid=951 * rank=165
+rawhand='AQ2T6' hand='ZXT62' clsf=(0, 'Z', 'X', 'T', '6', '2')	: res=7282853 += bid=99 * rank=166
+rawhand='QA72T' hand='ZXT72' clsf=(0, 'Z', 'X', 'T', '7', '2')	: res=7299287 += bid=554 * rank=167
+rawhand='T74AQ' hand='ZXT74' clsf=(0, 'Z', 'X', 'T', '7', '4')	: res=7391805 += bid=304 * rank=168
+rawhand='8AQ2T' hand='ZXT82' clsf=(0, 'Z', 'X', 'T', '8', '2')	: res=7442877 += bid=297 * rank=169
+rawhand='8Q6AT' hand='ZXT86' clsf=(0, 'Z', 'X', 'T', '8', '6')	: res=7493070 += bid=973 * rank=170
+rawhand='A7Q8T' hand='ZXT87' clsf=(0, 'Z', 'X', 'T', '8', '7')	: res=7658480 += bid=983 * rank=171
+rawhand='9TQ3A' hand='ZXT93' clsf=(0, 'Z', 'X', 'T', '9', '3')	: res=7826573 += bid=466 * rank=172
+rawhand='A5TQ9' hand='ZXT95' clsf=(0, 'Z', 'X', 'T', '9', '5')	: res=7906725 += bid=805 * rank=173
+rawhand='97QAT' hand='ZXT97' clsf=(0, 'Z', 'X', 'T', '9', '7')	: res=8045990 += bid=143 * rank=174
+rawhand='Q4AJ3' hand='ZXW43' clsf=(0, 'Z', 'X', 'W', '4', '3')	: res=8070872 += bid=394 * rank=175
+rawhand='6JQ3A' hand='ZXW63' clsf=(0, 'Z', 'X', 'W', '6', '3')	: res=8139822 += bid=459 * rank=176
+rawhand='8QJ2A' hand='ZXW82' clsf=(0, 'Z', 'X', 'W', '8', '2')	: res=8220606 += bid=239 * rank=177
+rawhand='6AQJ8' hand='ZXW86' clsf=(0, 'Z', 'X', 'W', '8', '6')	: res=8262909 += bid=439 * rank=178
+rawhand='K462A' hand='ZY642' clsf=(0, 'Z', 'Y', '6', '4', '2')	: res=8341051 += bid=508 * rank=179
+rawhand='37K2A' hand='ZY732' clsf=(0, 'Z', 'Y', '7', '3', '2')	: res=8431983 += bid=348 * rank=180
+rawhand='A83K4' hand='ZY843' clsf=(0, 'Z', 'Y', '8', '4', '3')	: res=8494623 += bid=905 * rank=181
+rawhand='58KA4' hand='ZY854' clsf=(0, 'Z', 'Y', '8', '5', '4')	: res=8658428 += bid=795 * rank=182
+rawhand='4AK87' hand='ZY874' clsf=(0, 'Z', 'Y', '8', '7', '4')	: res=8803118 += bid=78 * rank=183
+rawhand='A6K78' hand='ZY876' clsf=(0, 'Z', 'Y', '8', '7', '6')	: res=8817392 += bid=160 * rank=184
+rawhand='KA749' hand='ZY974' clsf=(0, 'Z', 'Y', '9', '7', '4')	: res=8846832 += bid=40 * rank=185
+rawhand='K896A' hand='ZY986' clsf=(0, 'Z', 'Y', '9', '8', '6')	: res=8854232 += bid=93 * rank=186
+rawhand='T4K3A' hand='ZYT43' clsf=(0, 'Z', 'Y', 'T', '4', '3')	: res=8871530 += bid=847 * rank=187
+rawhand='TAK54' hand='ZYT54' clsf=(0, 'Z', 'Y', 'T', '5', '4')	: res=9029919 += bid=455 * rank=188
+rawhand='8K3AT' hand='ZYT83' clsf=(0, 'Z', 'Y', 'T', '8', '3')	: res=9115459 += bid=934 * rank=189
+rawhand='AKT86' hand='ZYT86' clsf=(0, 'Z', 'Y', 'T', '8', '6')	: res=9291985 += bid=936 * rank=190
+rawhand='2J4KA' hand='ZYW42' clsf=(0, 'Z', 'Y', 'W', '4', '2')	: res=9469825 += bid=43 * rank=191
+rawhand='AK26J' hand='ZYW62' clsf=(0, 'Z', 'Y', 'W', '6', '2')	: res=9478038 += bid=964 * rank=192
+rawhand='J65AK' hand='ZYW65' clsf=(0, 'Z', 'Y', 'W', '6', '5')	: res=9663126 += bid=801 * rank=193
+rawhand='JA82K' hand='ZYW82' clsf=(0, 'Z', 'Y', 'W', '8', '2')	: res=9817719 += bid=978 * rank=194
+rawhand='5A8JK' hand='ZYW85' clsf=(0, 'Z', 'Y', 'W', '8', '5')	: res=10007451 += bid=447 * rank=195
+rawhand='JKA93' hand='ZYW93' clsf=(0, 'Z', 'Y', 'W', '9', '3')	: res=10094616 += bid=887 * rank=196
+rawhand='6JA9K' hand='ZYW96' clsf=(0, 'Z', 'Y', 'W', '9', '6')	: res=10268468 += bid=950 * rank=197
+rawhand='9AJK8' hand='ZYW98' clsf=(0, 'Z', 'Y', 'W', '9', '8')	: res=10455618 += bid=556 * rank=198
+rawhand='ATKJ5' hand='ZYWT5' clsf=(0, 'Z', 'Y', 'W', 'T', '5')	: res=10565706 += bid=82 * rank=199
+rawhand='T6JAK' hand='ZYWT6' clsf=(0, 'Z', 'Y', 'W', 'T', '6')	: res=10582024 += bid=586 * rank=200
+rawhand='A7KJT' hand='ZYWT7' clsf=(0, 'Z', 'Y', 'W', 'T', '7')	: res=10699224 += bid=309 * rank=201
+rawhand='8KATJ' hand='ZYWT8' clsf=(0, 'Z', 'Y', 'W', 'T', '8')	: res=10761333 += bid=651 * rank=202
+rawhand='K2AQ3' hand='ZYX32' clsf=(0, 'Z', 'Y', 'X', '3', '2')	: res=10892835 += bid=144 * rank=203
+rawhand='KAQ25' hand='ZYX52' clsf=(0, 'Z', 'Y', 'X', '5', '2')	: res=10922067 += bid=927 * rank=204
+rawhand='5QK4A' hand='ZYX54' clsf=(0, 'Z', 'Y', 'X', '5', '4')	: res=11111175 += bid=474 * rank=205
+rawhand='KQ38A' hand='ZYX83' clsf=(0, 'Z', 'Y', 'X', '8', '3')	: res=11208345 += bid=412 * rank=206
+rawhand='8AK5Q' hand='ZYX85' clsf=(0, 'Z', 'Y', 'X', '8', '5')	: res=11293217 += bid=230 * rank=207
+rawhand='87QAK' hand='ZYX87' clsf=(0, 'Z', 'Y', 'X', '8', '7')	: res=11340827 += bid=970 * rank=208
+rawhand='Q3K9A' hand='ZYX93' clsf=(0, 'Z', 'Y', 'X', '9', '3')	: res=11542587 += bid=29 * rank=209
+rawhand='5A9KQ' hand='ZYX95' clsf=(0, 'Z', 'Y', 'X', '9', '5')	: res=11548648 += bid=494 * rank=210
+rawhand='KQ8A9' hand='ZYX98' clsf=(0, 'Z', 'Y', 'X', '9', '8')	: res=11652388 += bid=608 * rank=211
+rawhand='3QJAK' hand='ZYXW3' clsf=(0, 'Z', 'Y', 'X', 'W', '3')	: res=11780676 += bid=241 * rank=212
+rawhand='7JAKQ' hand='ZYXW7' clsf=(0, 'Z', 'Y', 'X', 'W', '7')	: res=11831768 += bid=812 * rank=213
+rawhand='9QJKA' hand='ZYXW9' clsf=(0, 'Z', 'Y', 'X', 'W', '9')	: res=12004724 += bid=569 * rank=214
+rawhand='25328' hand='85322' clsf=(1, '2', '8', '5', '3')	: res=12126490 += bid=815 * rank=215
+rawhand='82279' hand='98722' clsf=(1, '2', '9', '8', '7')	: res=12301715 += bid=283 * rank=216
+rawhand='T3242' hand='T4322' clsf=(1, '2', 'T', '4', '3')	: res=12362843 += bid=835 * rank=217
+rawhand='622T7' hand='T7622' clsf=(1, '2', 'T', '7', '6')	: res=12544038 += bid=622 * rank=218
+rawhand='2J254' hand='W5422' clsf=(1, '2', 'W', '5', '4')	: res=12679634 += bid=722 * rank=219
+rawhand='2JT62' hand='WT622' clsf=(1, '2', 'W', 'T', '6')	: res=12837752 += bid=398 * rank=220
+rawhand='7Q228' hand='X8722' clsf=(1, '2', 'X', '8', '7')	: res=12925312 += bid=557 * rank=221
+rawhand='Q2962' hand='X9622' clsf=(1, '2', 'X', '9', '6')	: res=13048409 += bid=468 * rank=222
+rawhand='42T2Q' hand='XT422' clsf=(1, '2', 'X', 'T', '4')	: res=13152305 += bid=108 * rank=223
+rawhand='352K2' hand='Y5322' clsf=(1, '2', 'Y', '5', '3')	: res=13176389 += bid=94 * rank=224
+rawhand='62J2K' hand='YW622' clsf=(1, '2', 'Y', 'W', '6')	: res=13197445 += bid=445 * rank=225
+rawhand='J2KT2' hand='YWT22' clsf=(1, '2', 'Y', 'W', 'T')	: res=13297570 += bid=649 * rank=226
+rawhand='2QT2K' hand='YXT22' clsf=(1, '2', 'Y', 'X', 'T')	: res=13444244 += bid=75 * rank=227
+rawhand='K22JQ' hand='YXW22' clsf=(1, '2', 'Y', 'X', 'W')	: res=13461269 += bid=941 * rank=228
+rawhand='JA228' hand='ZW822' clsf=(1, '2', 'Z', 'W', '8')	: res=13675817 += bid=782 * rank=229
+rawhand='229QA' hand='ZX922' clsf=(1, '2', 'Z', 'X', '9')	: res=13854895 += bid=633 * rank=230
+rawhand='A2K92' hand='ZY922' clsf=(1, '2', 'Z', 'Y', '9')	: res=14000485 += bid=123 * rank=231
+rawhand='A22JK' hand='ZYW22' clsf=(1, '2', 'Z', 'Y', 'W')	: res=14028898 += bid=248 * rank=232
+rawhand='34532' hand='54332' clsf=(1, '3', '5', '4', '2')	: res=14086434 += bid=368 * rank=233
+rawhand='7343T' hand='T7433' clsf=(1, '3', 'T', '7', '4')	: res=14172178 += bid=829 * rank=234
+rawhand='67T33' hand='T7633' clsf=(1, '3', 'T', '7', '6')	: res=14366164 += bid=444 * rank=235
+rawhand='3J432' hand='W4332' clsf=(1, '3', 'W', '4', '2')	: res=14470504 += bid=786 * rank=236
+rawhand='2933J' hand='W9332' clsf=(1, '3', 'W', '9', '2')	: res=14656000 += bid=678 * rank=237
+rawhand='3943J' hand='W9433' clsf=(1, '3', 'W', '9', '4')	: res=14816686 += bid=13 * rank=238
+rawhand='38J39' hand='W9833' clsf=(1, '3', 'W', '9', '8')	: res=14819780 += bid=922 * rank=239
+rawhand='3JT37' hand='WT733' clsf=(1, '3', 'W', 'T', '7')	: res=15040138 += bid=463 * rank=240
+rawhand='33TJ9' hand='WT933' clsf=(1, '3', 'W', 'T', '9')	: res=15151258 += bid=414 * rank=241
+rawhand='36Q43' hand='X6433' clsf=(1, '3', 'X', '6', '4')	: res=15251032 += bid=696 * rank=242
+rawhand='QT3J3' hand='XWT33' clsf=(1, '3', 'X', 'W', 'T')	: res=15419464 += bid=91 * rank=243
+rawhand='33J8K' hand='YW833' clsf=(1, '3', 'Y', 'W', '8')	: res=15441577 += bid=158 * rank=244
+rawhand='3QK3J' hand='YXW33' clsf=(1, '3', 'Y', 'X', 'W')	: res=15480129 += bid=289 * rank=245
+rawhand='5A338' hand='Z8533' clsf=(1, '3', 'Z', '8', '5')	: res=15550934 += bid=86 * rank=246
+rawhand='68A33' hand='Z8633' clsf=(1, '3', 'Z', '8', '6')	: res=15572090 += bid=169 * rank=247
+rawhand='A3J32' hand='ZW332' clsf=(1, '3', 'Z', 'W', '2')	: res=15613833 += bid=986 * rank=248
+rawhand='23AQ3' hand='ZX332' clsf=(1, '3', 'Z', 'X', '2')	: res=15858361 += bid=600 * rank=249
+rawhand='26744' hand='76442' clsf=(1, '4', '7', '6', '2')	: res=16007761 += bid=850 * rank=250
+rawhand='94247' hand='97442' clsf=(1, '4', '9', '7', '2')	: res=16220261 += bid=146 * rank=251
+rawhand='84497' hand='98744' clsf=(1, '4', '9', '8', '7')	: res=16256907 += bid=217 * rank=252
+rawhand='T4246' hand='T6442' clsf=(1, '4', 'T', '6', '2')	: res=16311591 += bid=566 * rank=253
+rawhand='2474J' hand='W7442' clsf=(1, '4', 'W', '7', '2')	: res=16454789 += bid=483 * rank=254
+rawhand='6J447' hand='W7644' clsf=(1, '4', 'W', '7', '6')	: res=16577471 += bid=303 * rank=255
+rawhand='48J24' hand='W8442' clsf=(1, '4', 'W', '8', '2')	: res=16654736 += bid=238 * rank=256
+rawhand='5434Q' hand='X5443' clsf=(1, '4', 'X', '5', '3')	: res=16715664 += bid=232 * rank=257
+rawhand='4Q45T' hand='XT544' clsf=(1, '4', 'X', 'T', '5')	: res=16775288 += bid=180 * rank=258
+rawhand='46K48' hand='Y8644' clsf=(1, '4', 'Y', '8', '6')	: res=16821728 += bid=336 * rank=259
+rawhand='8744K' hand='Y8744' clsf=(1, '4', 'Y', '8', '7')	: res=16908752 += bid=727 * rank=260
+rawhand='J43K4' hand='YW443' clsf=(1, '4', 'Y', 'W', '3')	: res=17097772 += bid=851 * rank=261
+rawhand='44JK8' hand='YW844' clsf=(1, '4', 'Y', 'W', '8')	: res=17319883 += bid=14 * rank=262
+rawhand='44JKQ' hand='YXW44' clsf=(1, '4', 'Y', 'X', 'W')	: res=17323551 += bid=287 * rank=263
+rawhand='244A5' hand='Z5442' clsf=(1, '4', 'Z', '5', '2')	: res=17399032 += bid=465 * rank=264
+rawhand='4A43T' hand='ZT443' clsf=(1, '4', 'Z', 'T', '3')	: res=17521792 += bid=653 * rank=265
+rawhand='Q4A45' hand='ZX544' clsf=(1, '4', 'Z', 'X', '5')	: res=17694837 += bid=236 * rank=266
+rawhand='AQ449' hand='ZX944' clsf=(1, '4', 'Z', 'X', '9')	: res=17757613 += bid=921 * rank=267
+rawhand='54523' hand='55432' clsf=(1, '5', '4', '3', '2')	: res=18003520 += bid=935 * rank=268
+rawhand='85534' hand='85543' clsf=(1, '5', '8', '4', '3')	: res=18254100 += bid=862 * rank=269
+rawhand='95752' hand='97552' clsf=(1, '5', '9', '7', '2')	: res=18485978 += bid=486 * rank=270
+rawhand='25895' hand='98552' clsf=(1, '5', '9', '8', '2')	: res=18617198 += bid=268 * rank=271
+rawhand='J3655' hand='W6553' clsf=(1, '5', 'W', '6', '3')	: res=18689826 += bid=924 * rank=272
+rawhand='J5835' hand='W8553' clsf=(1, '5', 'W', '8', '3')	: res=18941154 += bid=817 * rank=273
+rawhand='J5935' hand='W9553' clsf=(1, '5', 'W', '9', '3')	: res=19164195 += bid=506 * rank=274
+rawhand='JT575' hand='WT755' clsf=(1, '5', 'W', 'T', '7')	: res=19302839 += bid=603 * rank=275
+rawhand='T5Q45' hand='XT554' clsf=(1, '5', 'X', 'T', '4')	: res=19468664 += bid=38 * rank=276
+rawhand='535JQ' hand='XW553' clsf=(1, '5', 'X', 'W', '3')	: res=19479152 += bid=411 * rank=277
+rawhand='K6553' hand='Y6553' clsf=(1, '5', 'Y', '6', '3')	: res=19592999 += bid=54 * rank=278
+rawhand='7553K' hand='Y7553' clsf=(1, '5', 'Y', '7', '3')	: res=19608011 += bid=352 * rank=279
+rawhand='K5953' hand='Y9553' clsf=(1, '5', 'Y', '9', '3')	: res=19706219 += bid=452 * rank=280
+rawhand='T552K' hand='YT552' clsf=(1, '5', 'Y', 'T', '2')	: res=19832779 += bid=251 * rank=281
+rawhand='55J2K' hand='YW552' clsf=(1, '5', 'Y', 'W', '2')	: res=19903310 += bid=81 * rank=282
+rawhand='5KJT5' hand='YWT55' clsf=(1, '5', 'Y', 'W', 'T')	: res=19926152 += bid=672 * rank=283
+rawhand='Q55K3' hand='YX553' clsf=(1, '5', 'Y', 'X', '3')	: res=20116328 += bid=527 * rank=284
+rawhand='A5Q85' hand='ZX855' clsf=(1, '5', 'Z', 'X', '8')	: res=20265996 += bid=553 * rank=285
+rawhand='46526' hand='66542' clsf=(1, '6', '5', '4', '2')	: res=20423601 += bid=327 * rank=286
+rawhand='38466' hand='86643' clsf=(1, '6', '8', '4', '3')	: res=20517123 += bid=461 * rank=287
+rawhand='8T646' hand='T8664' clsf=(1, '6', 'T', '8', '4')	: res=20649430 += bid=431 * rank=288
+rawhand='6J624' hand='W6642' clsf=(1, '6', 'W', '4', '2')	: res=20773558 += bid=635 * rank=289
+rawhand='3667J' hand='W7663' clsf=(1, '6', 'W', '7', '3')	: res=20957073 += bid=791 * rank=290
+rawhand='657J6' hand='W7665' clsf=(1, '6', 'W', '7', '5')	: res=21186463 += bid=291 * rank=291
+rawhand='68J67' hand='W8766' clsf=(1, '6', 'W', '8', '7')	: res=21271144 += bid=391 * rank=292
+rawhand='7J696' hand='W9766' clsf=(1, '6', 'W', '9', '7')	: res=21385316 += bid=338 * rank=293
+rawhand='9J866' hand='W9866' clsf=(1, '6', 'W', '9', '8')	: res=21484350 += bid=565 * rank=294
+rawhand='6637Q' hand='X7663' clsf=(1, '6', 'X', '7', '3')	: res=21650460 += bid=53 * rank=295
+rawhand='646TQ' hand='XT664' clsf=(1, '6', 'X', 'T', '4')	: res=21666095 += bid=783 * rank=296
+rawhand='696JQ' hand='XW966' clsf=(1, '6', 'X', 'W', '9')	: res=21897863 += bid=631 * rank=297
+rawhand='862K6' hand='Y8662' clsf=(1, '6', 'Y', '8', '2')	: res=22085270 += bid=369 * rank=298
+rawhand='66J2K' hand='YW662' clsf=(1, '6', 'Y', 'W', '2')	: res=22195232 += bid=396 * rank=299
+rawhand='4J66K' hand='YW664' clsf=(1, '6', 'Y', 'W', '4')	: res=22313636 += bid=263 * rank=300
+rawhand='KQ6T6' hand='YXT66' clsf=(1, '6', 'Y', 'X', 'T')	: res=22392536 += bid=360 * rank=301
+rawhand='6KQ6J' hand='YXW66' clsf=(1, '6', 'Y', 'X', 'W')	: res=22500896 += bid=962 * rank=302
+rawhand='66A53' hand='Z6653' clsf=(1, '6', 'Z', '5', '3')	: res=22791420 += bid=793 * rank=303
+rawhand='A8646' hand='Z8664' clsf=(1, '6', 'Z', '8', '4')	: res=23031699 += bid=135 * rank=304
+rawhand='76A96' hand='Z9766' clsf=(1, '6', 'Z', '9', '7')	: res=23072739 += bid=947 * rank=305
+rawhand='36J6A' hand='ZW663' clsf=(1, '6', 'Z', 'W', '3')	: res=23361574 += bid=97 * rank=306
+rawhand='JAK66' hand='ZYW66' clsf=(1, '6', 'Z', 'Y', 'W')	: res=23391256 += bid=28 * rank=307
+rawhand='37627' hand='77632' clsf=(1, '7', '6', '3', '2')	: res=23399852 += bid=873 * rank=308
+rawhand='62757' hand='77652' clsf=(1, '7', '6', '5', '2')	: res=23668736 += bid=575 * rank=309
+rawhand='6T747' hand='T7764' clsf=(1, '7', 'T', '6', '4')	: res=23846411 += bid=740 * rank=310
+rawhand='26J77' hand='W7762' clsf=(1, '7', 'W', '6', '2')	: res=24075811 += bid=823 * rank=311
+rawhand='778J3' hand='W8773' clsf=(1, '7', 'W', '8', '3')	: res=24331764 += bid=751 * rank=312
+rawhand='J8477' hand='W8774' clsf=(1, '7', 'W', '8', '4')	: res=24566076 += bid=674 * rank=313
+rawhand='774J9' hand='W9774' clsf=(1, '7', 'W', '9', '4')	: res=24777038 += bid=798 * rank=314
+rawhand='98J77' hand='W9877' clsf=(1, '7', 'W', '9', '8')	: res=25027610 += bid=371 * rank=315
+rawhand='JT977' hand='WT977' clsf=(1, '7', 'W', 'T', '9')	: res=25144475 += bid=615 * rank=316
+rawhand='Q4757' hand='X7754' clsf=(1, '7', 'X', '5', '4')	: res=25338815 += bid=856 * rank=317
+rawhand='6737Q' hand='X7763' clsf=(1, '7', 'X', '6', '3')	: res=25610167 += bid=641 * rank=318
+rawhand='77QJ3' hand='XW773' clsf=(1, '7', 'X', 'W', '3')	: res=25814005 += bid=587 * rank=319
+rawhand='67JQ7' hand='XW776' clsf=(1, '7', 'X', 'W', '6')	: res=26001258 += bid=266 * rank=320
+rawhand='7QJ97' hand='XW977' clsf=(1, '7', 'X', 'W', '9')	: res=26086378 += bid=694 * rank=321
+rawhand='QTJ77' hand='XWT77' clsf=(1, '7', 'X', 'W', 'T')	: res=26309152 += bid=355 * rank=322
+rawhand='795K7' hand='Y9775' clsf=(1, '7', 'Y', '9', '5')	: res=26423462 += bid=723 * rank=323
+rawhand='A797T' hand='ZT977' clsf=(1, '7', 'Z', 'T', '9')	: res=26656991 += bid=663 * rank=324
+rawhand='7QA72' hand='ZX772' clsf=(1, '7', 'Z', 'X', '2')	: res=26871803 += bid=498 * rank=325
+rawhand='Q7A7J' hand='ZXW77' clsf=(1, '7', 'Z', 'X', 'W')	: res=27033653 += bid=218 * rank=326
+rawhand='88724' hand='88742' clsf=(1, '8', '7', '4', '2')	: res=27104721 += bid=551 * rank=327
+rawhand='46887' hand='88764' clsf=(1, '8', '7', '6', '4')	: res=27284898 += bid=704 * rank=328
+rawhand='38298' hand='98832' clsf=(1, '8', '9', '3', '2')	: res=27515810 += bid=643 * rank=329
+rawhand='838T6' hand='T8863' clsf=(1, '8', 'T', '6', '3')	: res=27727357 += bid=250 * rank=330
+rawhand='T9388' hand='T9883' clsf=(1, '8', 'T', '9', '3')	: res=27809857 += bid=902 * rank=331
+rawhand='2J848' hand='W8842' clsf=(1, '8', 'W', '4', '2')	: res=28108419 += bid=655 * rank=332
+rawhand='J2858' hand='W8852' clsf=(1, '8', 'W', '5', '2')	: res=28325879 += bid=636 * rank=333
+rawhand='88J63' hand='W8863' clsf=(1, '8', 'W', '6', '3')	: res=28537667 += bid=588 * rank=334
+rawhand='J6488' hand='W8864' clsf=(1, '8', 'W', '6', '4')	: res=28734059 += bid=634 * rank=335
+rawhand='82J87' hand='W8872' clsf=(1, '8', 'W', '7', '2')	: res=28946449 += bid=89 * rank=336
+rawhand='J8478' hand='W8874' clsf=(1, '8', 'W', '7', '4')	: res=28976353 += bid=489 * rank=337
+rawhand='J8948' hand='W9884' clsf=(1, '8', 'W', '9', '4')	: res=29141146 += bid=267 * rank=338
+rawhand='884JT' hand='WT884' clsf=(1, '8', 'W', 'T', '4')	: res=29231392 += bid=644 * rank=339
+rawhand='J5T88' hand='WT885' clsf=(1, '8', 'W', 'T', '5')	: res=29449708 += bid=789 * rank=340
+rawhand='88TJ6' hand='WT886' clsf=(1, '8', 'W', 'T', '6')	: res=29717968 += bid=767 * rank=341
+rawhand='88Q63' hand='X8863' clsf=(1, '8', 'X', '6', '3')	: res=29979515 += bid=274 * rank=342
+rawhand='8Q478' hand='X8874' clsf=(1, '8', 'X', '7', '4')	: res=30073223 += bid=409 * rank=343
+rawhand='8Q867' hand='X8876' clsf=(1, '8', 'X', '7', '6')	: res=30213510 += bid=574 * rank=344
+rawhand='87Q98' hand='X9887' clsf=(1, '8', 'X', '9', '7')	: res=30410966 += bid=155 * rank=345
+rawhand='T588Q' hand='XT885' clsf=(1, '8', 'X', 'T', '5')	: res=30464441 += bid=70 * rank=346
+rawhand='QJ885' hand='XW885' clsf=(1, '8', 'X', 'W', '5')	: res=30488661 += bid=899 * rank=347
+rawhand='K8T87' hand='YT887' clsf=(1, '8', 'Y', 'T', '7')	: res=30800614 += bid=260 * rank=348
+rawhand='5JK88' hand='YW885' clsf=(1, '8', 'Y', 'W', '5')	: res=30891094 += bid=876 * rank=349
+rawhand='8K68J' hand='YW886' clsf=(1, '8', 'Y', 'W', '6')	: res=31196818 += bid=839 * rank=350
+rawhand='7JK88' hand='YW887' clsf=(1, '8', 'Y', 'W', '7')	: res=31490468 += bid=640 * rank=351
+rawhand='8K4Q8' hand='YX884' clsf=(1, '8', 'Y', 'X', '4')	: res=31715108 += bid=910 * rank=352
+rawhand='88KQ7' hand='YX887' clsf=(1, '8', 'Y', 'X', '7')	: res=32035428 += bid=955 * rank=353
+rawhand='4828A' hand='Z8842' clsf=(1, '8', 'Z', '4', '2')	: res=32372543 += bid=215 * rank=354
+rawhand='94359' hand='99543' clsf=(1, '9', '5', '4', '3')	: res=32448653 += bid=140 * rank=355
+rawhand='29379' hand='99732' clsf=(1, '9', '7', '3', '2')	: res=32498353 += bid=972 * rank=356
+rawhand='29983' hand='99832' clsf=(1, '9', '8', '3', '2')	: res=32844385 += bid=540 * rank=357
+rawhand='J5993' hand='W9953' clsf=(1, '9', 'W', '5', '3')	: res=33037165 += bid=860 * rank=358
+rawhand='949J5' hand='W9954' clsf=(1, '9', 'W', '5', '4')	: res=33345045 += bid=473 * rank=359
+rawhand='J9649' hand='W9964' clsf=(1, '9', 'W', '6', '4')	: res=33514852 += bid=389 * rank=360
+rawhand='93J79' hand='W9973' clsf=(1, '9', 'W', '7', '3')	: res=33654892 += bid=100 * rank=361
+rawhand='J8959' hand='W9985' clsf=(1, '9', 'W', '8', '5')	: res=33690992 += bid=375 * rank=362
+rawhand='8699J' hand='W9986' clsf=(1, '9', 'W', '8', '6')	: res=33826742 += bid=172 * rank=363
+rawhand='J993T' hand='WT993' clsf=(1, '9', 'W', 'T', '3')	: res=33889178 += bid=745 * rank=364
+rawhand='Q9925' hand='X9952' clsf=(1, '9', 'X', '5', '2')	: res=34160358 += bid=630 * rank=365
+rawhand='6993K' hand='Y9963' clsf=(1, '9', 'Y', '6', '3')	: res=34390308 += bid=616 * rank=366
+rawhand='997K6' hand='Y9976' clsf=(1, '9', 'Y', '7', '6')	: res=34615764 += bid=329 * rank=367
+rawhand='K9928' hand='Y9982' clsf=(1, '9', 'Y', '8', '2')	: res=34736507 += bid=65 * rank=368
+rawhand='998K7' hand='Y9987' clsf=(1, '9', 'Y', '8', '7')	: res=34760427 += bid=642 * rank=369
+rawhand='9K69J' hand='YW996' clsf=(1, '9', 'Y', 'W', '6')	: res=34997325 += bid=145 * rank=370
+rawhand='2TA99' hand='ZT992' clsf=(1, '9', 'Z', 'T', '2')	: res=35050975 += bid=406 * rank=371
+rawhand='9A2J9' hand='ZW992' clsf=(1, '9', 'Z', 'W', '2')	: res=35201601 += bid=191 * rank=372
+rawhand='993KA' hand='ZY993' clsf=(1, '9', 'Z', 'Y', '3')	: res=35272653 += bid=185 * rank=373
+rawhand='9A94K' hand='ZY994' clsf=(1, '9', 'Z', 'Y', '4')	: res=35341658 += bid=193 * rank=374
+rawhand='T436T' hand='TT643' clsf=(1, 'T', '6', '4', '3')	: res=35413840 += bid=605 * rank=375
+rawhand='46T5T' hand='TT654' clsf=(1, 'T', '6', '5', '4')	: res=35640715 += bid=550 * rank=376
+rawhand='4T6T8' hand='TT864' clsf=(1, 'T', '8', '6', '4')	: res=35847515 += bid=544 * rank=377
+rawhand='TT794' hand='TT974' clsf=(1, 'T', '9', '7', '4')	: res=36052603 += bid=539 * rank=378
+rawhand='TT3J5' hand='WTT53' clsf=(1, 'T', 'W', '5', '3')	: res=36256345 += bid=192 * rank=379
+rawhand='J3TT8' hand='WTT83' clsf=(1, 'T', 'W', '8', '3')	: res=36329113 += bid=34 * rank=380
+rawhand='3J9TT' hand='WTT93' clsf=(1, 'T', 'W', '9', '3')	: res=36342033 += bid=629 * rank=381
+rawhand='TQ7T2' hand='XTT72' clsf=(1, 'T', 'X', '7', '2')	: res=36581682 += bid=206 * rank=382
+rawhand='3TJQT' hand='XWTT3' clsf=(1, 'T', 'X', 'W', '3')	: res=36660374 += bid=668 * rank=383
+rawhand='TTJ7Q' hand='XWTT7' clsf=(1, 'T', 'X', 'W', '7')	: res=36916218 += bid=834 * rank=384
+rawhand='9JQTT' hand='XWTT9' clsf=(1, 'T', 'X', 'W', '9')	: res=37236474 += bid=832 * rank=385
+rawhand='TK47T' hand='YTT74' clsf=(1, 'T', 'Y', '7', '4')	: res=37556794 += bid=166 * rank=386
+rawhand='8TKT2' hand='YTT82' clsf=(1, 'T', 'Y', '8', '2')	: res=37620870 += bid=393 * rank=387
+rawhand='TAT26' hand='ZTT62' clsf=(1, 'T', 'Z', '6', '2')	: res=37772961 += bid=715 * rank=388
+rawhand='ATT47' hand='ZTT74' clsf=(1, 'T', 'Z', '7', '4')	: res=38050381 += bid=676 * rank=389
+rawhand='76TTA' hand='ZTT76' clsf=(1, 'T', 'Z', '7', '6')	: res=38313345 += bid=858 * rank=390
+rawhand='2T8AT' hand='ZTT82' clsf=(1, 'T', 'Z', '8', '2')	: res=38647965 += bid=502 * rank=391
+rawhand='3AT9T' hand='ZTT93' clsf=(1, 'T', 'Z', '9', '3')	: res=38844247 += bid=897 * rank=392
+rawhand='A9TT5' hand='ZTT95' clsf=(1, 'T', 'Z', '9', '5')	: res=39195871 += bid=560 * rank=393
+rawhand='ATJT8' hand='ZWTT8' clsf=(1, 'T', 'Z', 'W', '8')	: res=39415951 += bid=771 * rank=394
+rawhand='9ATJT' hand='ZWTT9' clsf=(1, 'T', 'Z', 'W', '9')	: res=39719725 += bid=892 * rank=395
+rawhand='QTA6T' hand='ZXTT6' clsf=(1, 'T', 'Z', 'X', '6')	: res=40072065 += bid=213 * rank=396
+rawhand='KATJT' hand='ZYWTT' clsf=(1, 'T', 'Z', 'Y', 'W')	: res=40156413 += bid=659 * rank=397
+rawhand='27J4J' hand='WW742' clsf=(1, 'W', '7', '4', '2')	: res=40418036 += bid=202 * rank=398
+rawhand='JJ374' hand='WW743' clsf=(1, 'W', '7', '4', '3')	: res=40498432 += bid=450 * rank=399
+rawhand='27JJ5' hand='WW752' clsf=(1, 'W', '7', '5', '2')	: res=40677982 += bid=686 * rank=400
+rawhand='J3J87' hand='WW873' clsf=(1, 'W', '8', '7', '3')	: res=40952382 += bid=88 * rank=401
+rawhand='3JJ69' hand='WW963' clsf=(1, 'W', '9', '6', '3')	: res=40987670 += bid=154 * rank=402
+rawhand='J96J4' hand='WW964' clsf=(1, 'W', '9', '6', '4')	: res=41049578 += bid=721 * rank=403
+rawhand='4T7JJ' hand='WWT74' clsf=(1, 'W', 'T', '7', '4')	: res=41340141 += bid=563 * rank=404
+rawhand='8JJT3' hand='WWT83' clsf=(1, 'W', 'T', '8', '3')	: res=41567593 += bid=775 * rank=405
+rawhand='5JT8J' hand='WWT85' clsf=(1, 'W', 'T', '8', '5')	: res=41881468 += bid=741 * rank=406
+rawhand='J89JT' hand='WWT98' clsf=(1, 'W', 'T', '9', '8')	: res=42182314 += bid=129 * rank=407
+rawhand='7QJ3J' hand='XWW73' clsf=(1, 'W', 'X', '7', '3')	: res=42234817 += bid=770 * rank=408
+rawhand='J7K6J' hand='YWW76' clsf=(1, 'W', 'Y', '7', '6')	: res=42548977 += bid=511 * rank=409
+rawhand='7JJ8K' hand='YWW87' clsf=(1, 'W', 'Y', '8', '7')	: res=42757976 += bid=708 * rank=410
+rawhand='JK94J' hand='YWW94' clsf=(1, 'W', 'Y', '9', '4')	: res=43048256 += bid=524 * rank=411
+rawhand='J6AJ7' hand='ZWW76' clsf=(1, 'W', 'Z', '7', '6')	: res=43263620 += bid=385 * rank=412
+rawhand='J9JA5' hand='ZWW95' clsf=(1, 'W', 'Z', '9', '5')	: res=43422240 += bid=244 * rank=413
+rawhand='TJA2J' hand='ZWWT2' clsf=(1, 'W', 'Z', 'T', '2')	: res=43523012 += bid=509 * rank=414
+rawhand='JTJA6' hand='ZWWT6' clsf=(1, 'W', 'Z', 'T', '6')	: res=43733738 += bid=744 * rank=415
+rawhand='2QQ76' hand='XX762' clsf=(1, 'X', '7', '6', '2')	: res=44042498 += bid=510 * rank=416
+rawhand='5QQ38' hand='XX853' clsf=(1, 'X', '8', '5', '3')	: res=44254658 += bid=349 * rank=417
+rawhand='Q2Q39' hand='XX932' clsf=(1, 'X', '9', '3', '2')	: res=44400191 += bid=895 * rank=418
+rawhand='3QQ89' hand='XX983' clsf=(1, 'X', '9', '8', '3')	: res=44774301 += bid=446 * rank=419
+rawhand='8TQ3Q' hand='XXT83' clsf=(1, 'X', 'T', '8', '3')	: res=44961175 += bid=252 * rank=420
+rawhand='8JQQ2' hand='XXW82' clsf=(1, 'X', 'W', '8', '2')	: res=45067015 += bid=383 * rank=421
+rawhand='Q83JQ' hand='XXW83' clsf=(1, 'X', 'W', '8', '3')	: res=45228258 += bid=334 * rank=422
+rawhand='QJTQ2' hand='XXWT2' clsf=(1, 'X', 'W', 'T', '2')	: res=45369206 += bid=261 * rank=423
+rawhand='JQ4QT' hand='XXWT4' clsf=(1, 'X', 'W', 'T', '4')	: res=45479609 += bid=534 * rank=424
+rawhand='TQJ9Q' hand='XXWT9' clsf=(1, 'X', 'W', 'T', '9')	: res=45706025 += bid=645 * rank=425
+rawhand='QQ4K3' hand='YXX43' clsf=(1, 'X', 'Y', '4', '3')	: res=45980150 += bid=253 * rank=426
+rawhand='KQ93Q' hand='YXX93' clsf=(1, 'X', 'Y', '9', '3')	: res=46087928 += bid=114 * rank=427
+rawhand='6A2QQ' hand='ZXX62' clsf=(1, 'X', 'Z', '6', '2')	: res=46136606 += bid=942 * rank=428
+rawhand='9AQQ4' hand='ZXX94' clsf=(1, 'X', 'Z', '9', '4')	: res=46539782 += bid=729 * rank=429
+rawhand='9QJQA' hand='ZXXW9' clsf=(1, 'X', 'Z', 'W', '9')	: res=46852523 += bid=725 * rank=430
+rawhand='AKQQ5' hand='ZYXX5' clsf=(1, 'X', 'Z', 'Y', '5')	: res=47164273 += bid=827 * rank=431
+rawhand='QAKQT' hand='ZYXXT' clsf=(1, 'X', 'Z', 'Y', 'T')	: res=47520710 += bid=925 * rank=432
+rawhand='2KK75' hand='YY752' clsf=(1, 'Y', '7', '5', '2')	: res=47920310 += bid=339 * rank=433
+rawhand='537KK' hand='YY753' clsf=(1, 'Y', '7', '5', '3')	: res=48067097 += bid=225 * rank=434
+rawhand='7K45K' hand='YY754' clsf=(1, 'Y', '7', '5', '4')	: res=48164747 += bid=567 * rank=435
+rawhand='52K8K' hand='YY852' clsf=(1, 'Y', '8', '5', '2')	: res=48411392 += bid=453 * rank=436
+rawhand='9K2K4' hand='YY942' clsf=(1, 'Y', '9', '4', '2')	: res=48608900 += bid=161 * rank=437
+rawhand='4K93K' hand='YY943' clsf=(1, 'Y', '9', '4', '3')	: res=48679257 += bid=928 * rank=438
+rawhand='KK985' hand='YY985' clsf=(1, 'Y', '9', '8', '5')	: res=49085721 += bid=42 * rank=439
+rawhand='2K5JK' hand='YYW52' clsf=(1, 'Y', 'W', '5', '2')	: res=49104159 += bid=768 * rank=440
+rawhand='KJ62K' hand='YYW62' clsf=(1, 'Y', 'W', '6', '2')	: res=49442079 += bid=288 * rank=441
+rawhand='KKJ27' hand='YYW72' clsf=(1, 'Y', 'W', '7', '2')	: res=49569087 += bid=330 * rank=442
+rawhand='J4KK7' hand='YYW74' clsf=(1, 'Y', 'W', '7', '4')	: res=49714947 += bid=706 * rank=443
+rawhand='79KJK' hand='YYW97' clsf=(1, 'Y', 'W', '9', '7')	: res=50027705 += bid=77 * rank=444
+rawhand='8KK2Q' hand='YYX82' clsf=(1, 'Y', 'X', '8', '2')	: res=50061893 += bid=317 * rank=445
+rawhand='KK7QJ' hand='YYXW7' clsf=(1, 'Y', 'X', 'W', '7')	: res=50202958 += bid=683 * rank=446
+rawhand='9KKQJ' hand='YYXW9' clsf=(1, 'Y', 'X', 'W', '9')	: res=50507576 += bid=490 * rank=447
+rawhand='KTQKJ' hand='YYXWT' clsf=(1, 'Y', 'X', 'W', 'T')	: res=50726606 += bid=891 * rank=448
+rawhand='7AK4K' hand='ZYY74' clsf=(1, 'Y', 'Z', '7', '4')	: res=51125774 += bid=201 * rank=449
+rawhand='KKA67' hand='ZYY76' clsf=(1, 'Y', 'Z', '7', '6')	: res=51216023 += bid=794 * rank=450
+rawhand='A3TKK' hand='ZYYT3' clsf=(1, 'Y', 'Z', 'T', '3')	: res=51573323 += bid=772 * rank=451
+rawhand='KA4TK' hand='ZYYT4' clsf=(1, 'Y', 'Z', 'T', '4')	: res=51921495 += bid=650 * rank=452
+rawhand='A9TKK' hand='ZYYT9' clsf=(1, 'Y', 'Z', 'T', '9')	: res=52215295 += bid=39 * rank=453
+rawhand='KJAK6' hand='ZYYW6' clsf=(1, 'Y', 'Z', 'W', '6')	: res=52232962 += bid=753 * rank=454
+rawhand='K9JKA' hand='ZYYW9' clsf=(1, 'Y', 'Z', 'W', '9')	: res=52574824 += bid=711 * rank=455
+rawhand='JQKKA' hand='ZYYXW' clsf=(1, 'Y', 'Z', 'X', 'W')	: res=52898329 += bid=804 * rank=456
+rawhand='724AA' hand='ZZ742' clsf=(1, 'Z', '7', '4', '2')	: res=53264953 += bid=516 * rank=457
+rawhand='A58A2' hand='ZZ852' clsf=(1, 'Z', '8', '5', '2')	: res=53500765 += bid=481 * rank=458
+rawhand='6TAA4' hand='ZZT64' clsf=(1, 'Z', 'T', '6', '4')	: res=53721063 += bid=286 * rank=459
+rawhand='39AAT' hand='ZZT93' clsf=(1, 'Z', 'T', '9', '3')	: res=53852337 += bid=424 * rank=460
+rawhand='J3A4A' hand='ZZW43' clsf=(1, 'Z', 'W', '4', '3')	: res=54047377 += bid=124 * rank=461
+rawhand='AJA73' hand='ZZW73' clsf=(1, 'Z', 'W', '7', '3')	: res=54104541 += bid=796 * rank=462
+rawhand='2JAA9' hand='ZZW92' clsf=(1, 'Z', 'W', '9', '2')	: res=54472293 += bid=224 * rank=463
+rawhand='9AA3J' hand='ZZW93' clsf=(1, 'Z', 'W', '9', '3')	: res=54576005 += bid=183 * rank=464
+rawhand='JATA9' hand='ZZWT9' clsf=(1, 'Z', 'W', 'T', '9')	: res=54660917 += bid=128 * rank=465
+rawhand='8QA2A' hand='ZZX82' clsf=(1, 'Z', 'X', '8', '2')	: res=54720437 += bid=427 * rank=466
+rawhand='8AA6Q' hand='ZZX86' clsf=(1, 'Z', 'X', '8', '6')	: res=54919419 += bid=5 * rank=467
+rawhand='Q2AAT' hand='ZZXT2' clsf=(1, 'Z', 'X', 'T', '2')	: res=54921754 += bid=280 * rank=468
+rawhand='7JAAQ' hand='ZZXW7' clsf=(1, 'Z', 'X', 'W', '7')	: res=55052794 += bid=580 * rank=469
+rawhand='AJ2AK' hand='ZZYW2' clsf=(1, 'Z', 'Y', 'W', '2')	: res=55324814 += bid=413 * rank=470
+rawhand='A3KJA' hand='ZZYW3' clsf=(1, 'Z', 'Y', 'W', '3')	: res=55518924 += bid=503 * rank=471
+rawhand='AQ4KA' hand='ZZYX4' clsf=(1, 'Z', 'Y', 'X', '4')	: res=55755837 += bid=422 * rank=472
+rawhand='QAKA8' hand='ZZYX8' clsf=(1, 'Z', 'Y', 'X', '8')	: res=55955021 += bid=367 * rank=473
+rawhand='QJKAA' hand='ZZYXW' clsf=(1, 'Z', 'Y', 'X', 'W')	: res=56128612 += bid=568 * rank=474
+rawhand='32263' hand='63322' clsf=(2, '3', '2', '6')	: res=56397844 += bid=314 * rank=475
+rawhand='2332T' hand='T3322' clsf=(2, '3', '2', 'T')	: res=56546994 += bid=889 * rank=476
+rawhand='32J32' hand='W3322' clsf=(2, '3', '2', 'W')	: res=56970158 += bid=199 * rank=477
+rawhand='2424T' hand='T4422' clsf=(2, '4', '2', 'T')	: res=57065081 += bid=737 * rank=478
+rawhand='36344' hand='64433' clsf=(2, '4', '3', '6')	: res=57417367 += bid=127 * rank=479
+rawhand='33484' hand='84433' clsf=(2, '4', '3', '8')	: res=57478200 += bid=401 * rank=480
+rawhand='34394' hand='94433' clsf=(2, '4', '3', '9')	: res=57670680 += bid=963 * rank=481
+rawhand='34J34' hand='W4433' clsf=(2, '4', '3', 'W')	: res=58133883 += bid=419 * rank=482
+rawhand='K4334' hand='Y4433' clsf=(2, '4', '3', 'Y')	: res=58335841 += bid=2 * rank=483
+rawhand='52253' hand='55322' clsf=(2, '5', '2', '3')	: res=58336807 += bid=151 * rank=484
+rawhand='37535' hand='75533' clsf=(2, '5', '3', '7')	: res=58409891 += bid=153 * rank=485
+rawhand='J5353' hand='W5533' clsf=(2, '5', '3', 'W')	: res=58484096 += bid=546 * rank=486
+rawhand='52454' hand='55442' clsf=(2, '5', '4', '2')	: res=58749452 += bid=443 * rank=487
+rawhand='5J445' hand='W5544' clsf=(2, '5', '4', 'W')	: res=58965193 += bid=270 * rank=488
+rawhand='544K5' hand='Y5544' clsf=(2, '5', '4', 'Y')	: res=59096953 += bid=76 * rank=489
+rawhand='4A455' hand='Z5544' clsf=(2, '5', '4', 'Z')	: res=59134117 += bid=49 * rank=490
+rawhand='26926' hand='96622' clsf=(2, '6', '2', '9')	: res=59158127 += bid=512 * rank=491
+rawhand='2J626' hand='W6622' clsf=(2, '6', '2', 'W')	: res=59409519 += bid=732 * rank=492
+rawhand='3K636' hand='Y6633' clsf=(2, '6', '3', 'Y')	: res=59769663 += bid=623 * rank=493
+rawhand='6T464' hand='T6644' clsf=(2, '6', '4', 'T')	: res=60076802 += bid=36 * rank=494
+rawhand='66Q44' hand='X6644' clsf=(2, '6', '4', 'X')	: res=60094586 += bid=405 * rank=495
+rawhand='K6464' hand='Y6644' clsf=(2, '6', '4', 'Y')	: res=60295061 += bid=381 * rank=496
+rawhand='52656' hand='66552' clsf=(2, '6', '5', '2')	: res=60484037 += bid=542 * rank=497
+rawhand='56856' hand='86655' clsf=(2, '6', '5', '8')	: res=60753411 += bid=92 * rank=498
+rawhand='6J655' hand='W6655' clsf=(2, '6', '5', 'W')	: res=60799227 += bid=929 * rank=499
+rawhand='37374' hand='77433' clsf=(2, '7', '3', '4')	: res=61262798 += bid=627 * rank=500
+rawhand='K7373' hand='Y7733' clsf=(2, '7', '3', 'Y')	: res=61576298 += bid=484 * rank=501
+rawhand='3A773' hand='Z7733' clsf=(2, '7', '3', 'Z')	: res=61818782 += bid=50 * rank=502
+rawhand='74A47' hand='Z7744' clsf=(2, '7', '4', 'Z')	: res=61843882 += bid=875 * rank=503
+rawhand='62677' hand='77662' clsf=(2, '7', '6', '2')	: res=62284007 += bid=797 * rank=504
+rawhand='96677' hand='97766' clsf=(2, '7', '6', '9')	: res=62685695 += bid=477 * rank=505
+rawhand='67K67' hand='Y7766' clsf=(2, '7', '6', 'Y')	: res=62926580 += bid=952 * rank=506
+rawhand='822J8' hand='W8822' clsf=(2, '8', '2', 'W')	: res=63408292 += bid=893 * rank=507
+rawhand='282Q8' hand='X8822' clsf=(2, '8', '2', 'X')	: res=63861043 += bid=428 * rank=508
+rawhand='28383' hand='88332' clsf=(2, '8', '3', '2')	: res=64078467 += bid=904 * rank=509
+rawhand='84854' hand='88544' clsf=(2, '8', '4', '5')	: res=64538603 += bid=864 * rank=510
+rawhand='84486' hand='88644' clsf=(2, '8', '4', '6')	: res=64979243 += bid=178 * rank=511
+rawhand='84847' hand='88744' clsf=(2, '8', '4', '7')	: res=65070201 += bid=451 * rank=512
+rawhand='8448J' hand='W8844' clsf=(2, '8', '4', 'W')	: res=65301113 += bid=103 * rank=513
+rawhand='68585' hand='88655' clsf=(2, '8', '5', '6')	: res=65353952 += bid=598 * rank=514
+rawhand='58J85' hand='W8855' clsf=(2, '8', '5', 'W')	: res=65661324 += bid=141 * rank=515
+rawhand='68J86' hand='W8866' clsf=(2, '8', '6', 'W')	: res=65733939 += bid=961 * rank=516
+rawhand='78876' hand='88776' clsf=(2, '8', '7', '6')	: res=66229815 += bid=8 * rank=517
+rawhand='22959' hand='99522' clsf=(2, '9', '2', '5')	: res=66233951 += bid=426 * rank=518
+rawhand='92J92' hand='W9922' clsf=(2, '9', '2', 'W')	: res=66454619 += bid=710 * rank=519
+rawhand='9K229' hand='Y9922' clsf=(2, '9', '2', 'Y')	: res=66823109 += bid=388 * rank=520
+rawhand='33299' hand='99332' clsf=(2, '9', '3', '2')	: res=67024869 += bid=652 * rank=521
+rawhand='99533' hand='99533' clsf=(2, '9', '3', '5')	: res=67364561 += bid=521 * rank=522
+rawhand='J3993' hand='W9933' clsf=(2, '9', '3', 'W')	: res=67636523 += bid=719 * rank=523
+rawhand='9494J' hand='W9944' clsf=(2, '9', '4', 'W')	: res=68012560 += bid=105 * rank=524
+rawhand='K4949' hand='Y9944' clsf=(2, '9', '4', 'Y')	: res=68067580 += bid=442 * rank=525
+rawhand='9696J' hand='W9966' clsf=(2, '9', '6', 'W')	: res=68299630 += bid=264 * rank=526
+rawhand='97279' hand='99772' clsf=(2, '9', '7', '2')	: res=68438494 += bid=95 * rank=527
+rawhand='797A9' hand='Z9977' clsf=(2, '9', '7', 'Z')	: res=68488559 += bid=562 * rank=528
+rawhand='48989' hand='99884' clsf=(2, '9', '8', '4')	: res=68785295 += bid=825 * rank=529
+rawhand='889J9' hand='W9988' clsf=(2, '9', '8', 'W')	: res=69221720 += bid=313 * rank=530
+rawhand='4T2T2' hand='TT422' clsf=(2, 'T', '2', '4')	: res=69387610 += bid=186 * rank=531
+rawhand='2T5T2' hand='TT522' clsf=(2, 'T', '2', '5')	: res=69486376 += bid=759 * rank=532
+rawhand='T3T43' hand='TT433' clsf=(2, 'T', '3', '4')	: res=69890164 += bid=17 * rank=533
+rawhand='T633T' hand='TT633' clsf=(2, 'T', '3', '6')	: res=69899225 += bid=208 * rank=534
+rawhand='T3T3J' hand='WTT33' clsf=(2, 'T', '3', 'W')	: res=70010297 += bid=63 * rank=535
+rawhand='TT244' hand='TT442' clsf=(2, 'T', '4', '2')	: res=70044002 += bid=364 * rank=536
+rawhand='T4JT4' hand='WTT44' clsf=(2, 'T', '4', 'W')	: res=70239106 += bid=677 * rank=537
+rawhand='4QTT4' hand='XTT44' clsf=(2, 'T', '4', 'X')	: res=70602655 += bid=138 * rank=538
+rawhand='5T5TJ' hand='WTT55' clsf=(2, 'T', '5', 'W')	: res=70676899 += bid=221 * rank=539
+rawhand='66T9T' hand='TT966' clsf=(2, 'T', '6', '9')	: res=70796018 += bid=519 * rank=540
+rawhand='6T6JT' hand='WTT66' clsf=(2, 'T', '6', 'W')	: res=71076278 += bid=915 * rank=541
+rawhand='6T6TK' hand='YTT66' clsf=(2, 'T', '6', 'Y')	: res=71571293 += bid=982 * rank=542
+rawhand='27T7T' hand='TT772' clsf=(2, 'T', '7', '2')	: res=72103537 += bid=3 * rank=543
+rawhand='3T7T7' hand='TT773' clsf=(2, 'T', '7', '3')	: res=72105166 += bid=806 * rank=544
+rawhand='577TT' hand='TT775' clsf=(2, 'T', '7', '5')	: res=72543630 += bid=735 * rank=545
+rawhand='779TT' hand='TT977' clsf=(2, 'T', '7', '9')	: res=72944205 += bid=920 * rank=546
+rawhand='Q7TT7' hand='XTT77' clsf=(2, 'T', '7', 'X')	: res=73446525 += bid=68 * rank=547
+rawhand='T828T' hand='TT882' clsf=(2, 'T', '8', '2')	: res=73483721 += bid=933 * rank=548
+rawhand='A8TT8' hand='ZTT88' clsf=(2, 'T', '8', 'Z')	: res=73995005 += bid=914 * rank=549
+rawhand='9T94T' hand='TT994' clsf=(2, 'T', '9', '4')	: res=74496791 += bid=609 * rank=550
+rawhand='TT989' hand='TT998' clsf=(2, 'T', '9', '8')	: res=74831741 += bid=277 * rank=551
+rawhand='22J9J' hand='WW922' clsf=(2, 'W', '2', '9')	: res=74984368 += bid=60 * rank=552
+rawhand='3J43J' hand='WW433' clsf=(2, 'W', '3', '4')	: res=75017488 += bid=507 * rank=553
+rawhand='4JJ45' hand='WW544' clsf=(2, 'W', '4', '5')	: res=75297859 += bid=32 * rank=554
+rawhand='JA4J4' hand='ZWW44' clsf=(2, 'W', '4', 'Z')	: res=75315587 += bid=130 * rank=555
+rawhand='J5J95' hand='WW955' clsf=(2, 'W', '5', '9')	: res=75387737 += bid=695 * rank=556
+rawhand='6J9J6' hand='WW966' clsf=(2, 'W', '6', '9')	: res=75774157 += bid=505 * rank=557
+rawhand='KJJ77' hand='YWW77' clsf=(2, 'W', '7', 'Y')	: res=76055442 += bid=658 * rank=558
+rawhand='JJ882' hand='WW882' clsf=(2, 'W', '8', '2')	: res=76422606 += bid=318 * rank=559
+rawhand='88J7J' hand='WW887' clsf=(2, 'W', '8', '7')	: res=76600368 += bid=975 * rank=560
+rawhand='J9JQ9' hand='XWW99' clsf=(2, 'W', '9', 'X')	: res=77146368 += bid=475 * rank=561
+rawhand='99JKJ' hand='YWW99' clsf=(2, 'W', '9', 'Y')	: res=77412843 += bid=437 * rank=562
+rawhand='AJJ99' hand='ZWW99' clsf=(2, 'W', '9', 'Z')	: res=77658437 += bid=621 * rank=563
+rawhand='Q822Q' hand='XX822' clsf=(2, 'X', '2', '8')	: res=78008060 += bid=954 * rank=564
+rawhand='QJ22Q' hand='XXW22' clsf=(2, 'X', '2', 'W')	: res=78546116 += bid=85 * rank=565
+rawhand='QQ433' hand='XX433' clsf=(2, 'X', '3', '4')	: res=78594141 += bid=520 * rank=566
+rawhand='338QQ' hand='XX833' clsf=(2, 'X', '3', '8')	: res=78888461 += bid=530 * rank=567
+rawhand='QQ33J' hand='XXW33' clsf=(2, 'X', '3', 'W')	: res=79188971 += bid=117 * rank=568
+rawhand='5QQ25' hand='XX552' clsf=(2, 'X', '5', '2')	: res=79255427 += bid=132 * rank=569
+rawhand='Q557Q' hand='XX755' clsf=(2, 'X', '5', '7')	: res=79330535 += bid=691 * rank=570
+rawhand='QT5Q5' hand='XXT55' clsf=(2, 'X', '5', 'T')	: res=79724405 += bid=879 * rank=571
+rawhand='Q5J5Q' hand='XXW55' clsf=(2, 'X', '5', 'W')	: res=80226314 += bid=761 * rank=572
+rawhand='5Q5QK' hand='YXX55' clsf=(2, 'X', '5', 'Y')	: res=80661606 += bid=249 * rank=573
+rawhand='QQ668' hand='XX866' clsf=(2, 'X', '6', '8')	: res=80804283 += bid=870 * rank=574
+rawhand='KQ66Q' hand='YXX66' clsf=(2, 'X', '6', 'Y')	: res=81303663 += bid=590 * rank=575
+rawhand='37Q7Q' hand='XX773' clsf=(2, 'X', '7', '3')	: res=81642913 += bid=612 * rank=576
+rawhand='8QQ77' hand='XX877' clsf=(2, 'X', '7', '8')	: res=81995425 += bid=774 * rank=577
+rawhand='8QQ83' hand='XX883' clsf=(2, 'X', '8', '3')	: res=82442023 += bid=992 * rank=578
+rawhand='8Q8Q7' hand='XX887' clsf=(2, 'X', '8', '7')	: res=83015399 += bid=62 * rank=579
+rawhand='8QQJ8' hand='XXW88' clsf=(2, 'X', '8', 'W')	: res=83051297 += bid=792 * rank=580
+rawhand='Q399Q' hand='XX993' clsf=(2, 'X', '9', '3')	: res=83510657 += bid=116 * rank=581
+rawhand='94QQ9' hand='XX994' clsf=(2, 'X', '9', '4')	: res=83578053 += bid=415 * rank=582
+rawhand='Q6Q99' hand='XX996' clsf=(2, 'X', '9', '6')	: res=83819583 += bid=800 * rank=583
+rawhand='9JQ9Q' hand='XXW99' clsf=(2, 'X', '9', 'W')	: res=84285983 += bid=578 * rank=584
+rawhand='JTQQT' hand='XXWTT' clsf=(2, 'X', 'T', 'W')	: res=84623535 += bid=7 * rank=585
+rawhand='QQATT' hand='ZXXTT' clsf=(2, 'X', 'T', 'Z')	: res=84627630 += bid=965 * rank=586
+rawhand='Q3QJJ' hand='XXWW3' clsf=(2, 'X', 'W', '3')	: res=85193120 += bid=470 * rank=587
+rawhand='33KK5' hand='YY533' clsf=(2, 'Y', '3', '5')	: res=85469010 += bid=308 * rank=588
+rawhand='K42K4' hand='YY442' clsf=(2, 'Y', '4', '2')	: res=85650114 += bid=402 * rank=589
+rawhand='5K5K9' hand='YY955' clsf=(2, 'Y', '5', '9')	: res=85886892 += bid=372 * rank=590
+rawhand='5KKJ5' hand='YYW55' clsf=(2, 'Y', '5', 'W')	: res=86106372 += bid=842 * rank=591
+rawhand='KQ66K' hand='YYX66' clsf=(2, 'Y', '6', 'X')	: res=86603994 += bid=525 * rank=592
+rawhand='7K7K3' hand='YY773' clsf=(2, 'Y', '7', '3')	: res=86914794 += bid=316 * rank=593
+rawhand='K77KJ' hand='YYW77' clsf=(2, 'Y', '7', 'W')	: res=87102182 += bid=276 * rank=594
+rawhand='AKK77' hand='ZYY77' clsf=(2, 'Y', '7', 'Z')	: res=87266126 += bid=256 * rank=595
+rawhand='3K8K8' hand='YY883' clsf=(2, 'Y', '8', '3')	: res=87418446 += bid=903 * rank=596
+rawhand='8KK87' hand='YY887' clsf=(2, 'Y', '8', '7')	: res=87956634 += bid=670 * rank=597
+rawhand='88KJK' hand='YYW88' clsf=(2, 'Y', '8', 'W')	: res=88356624 += bid=170 * rank=598
+rawhand='9K6K9' hand='YY996' clsf=(2, 'Y', '9', '6')	: res=88458284 += bid=448 * rank=599
+rawhand='K9K9J' hand='YYW99' clsf=(2, 'Y', '9', 'W')	: res=88726636 += bid=204 * rank=600
+rawhand='QK9K9' hand='YYX99' clsf=(2, 'Y', '9', 'X')	: res=88849036 += bid=235 * rank=601
+rawhand='KAK99' hand='ZYY99' clsf=(2, 'Y', '9', 'Z')	: res=88990271 += bid=591 * rank=602
+rawhand='K9TTK' hand='YYTT9' clsf=(2, 'Y', 'T', '9')	: res=89346053 += bid=392 * rank=603
+rawhand='JTTKK' hand='YYWTT' clsf=(2, 'Y', 'T', 'W')	: res=89582429 += bid=824 * rank=604
+rawhand='ATKTK' hand='ZYYTT' clsf=(2, 'Y', 'T', 'Z')	: res=90080125 += bid=846 * rank=605
+rawhand='JQKKJ' hand='YYXWW' clsf=(2, 'Y', 'W', 'X')	: res=90591955 += bid=648 * rank=606
+rawhand='QQKK3' hand='YYXX3' clsf=(2, 'Y', 'X', '3')	: res=90984643 += bid=818 * rank=607
+rawhand='QQK4K' hand='YYXX4' clsf=(2, 'Y', 'X', '4')	: res=91481169 += bid=16 * rank=608
+rawhand='KQQKA' hand='ZYYXX' clsf=(2, 'Y', 'X', 'Z')	: res=91490897 += bid=500 * rank=609
+rawhand='A22A6' hand='ZZ622' clsf=(2, 'Z', '2', '6')	: res=91795397 += bid=269 * rank=610
+rawhand='AA822' hand='ZZ822' clsf=(2, 'Z', '2', '8')	: res=91959487 += bid=614 * rank=611
+rawhand='A22A9' hand='ZZ922' clsf=(2, 'Z', '2', '9')	: res=92334641 += bid=974 * rank=612
+rawhand='2AA2J' hand='ZZW22' clsf=(2, 'Z', '2', 'W')	: res=92930729 += bid=885 * rank=613
+rawhand='53A3A' hand='ZZ533' clsf=(2, 'Z', '3', '5')	: res=93473234 += bid=763 * rank=614
+rawhand='3A3AJ' hand='ZZW33' clsf=(2, 'Z', '3', 'W')	: res=93941716 += bid=583 * rank=615
+rawhand='4AA42' hand='ZZ442' clsf=(2, 'Z', '4', '2')	: res=94300261 += bid=10 * rank=616
+rawhand='4AA45' hand='ZZ544' clsf=(2, 'Z', '4', '5')	: res=94306421 += bid=61 * rank=617
+rawhand='A4AT4' hand='ZZT44' clsf=(2, 'Z', '4', 'T')	: res=94344058 += bid=993 * rank=618
+rawhand='45A5A' hand='ZZ554' clsf=(2, 'Z', '5', '4')	: res=94957732 += bid=886 * rank=619
+rawhand='7AA7J' hand='ZZW77' clsf=(2, 'Z', '7', 'W')	: res=95506166 += bid=632 * rank=620
+rawhand='8AA38' hand='ZZ883' clsf=(2, 'Z', '8', '3')	: res=95898006 += bid=689 * rank=621
+rawhand='887AA' hand='ZZ887' clsf=(2, 'Z', '8', '7')	: res=96325875 += bid=699 * rank=622
+rawhand='7AA99' hand='ZZ997' clsf=(2, 'Z', '9', '7')	: res=96760653 += bid=485 * rank=623
+rawhand='TA5AT' hand='ZZTT5' clsf=(2, 'Z', 'T', '5')	: res=97062808 += bid=292 * rank=624
+rawhand='T7ATA' hand='ZZTT7' clsf=(2, 'Z', 'T', '7')	: res=97245016 += bid=620 * rank=625
+rawhand='TAAJT' hand='ZZWTT' clsf=(2, 'Z', 'T', 'W')	: res=97632516 += bid=67 * rank=626
+rawhand='J3JAA' hand='ZZWW3' clsf=(2, 'Z', 'W', '3')	: res=97674458 += bid=324 * rank=627
+rawhand='A9JAJ' hand='ZZWW9' clsf=(2, 'Z', 'W', '9')	: res=97877606 += bid=599 * rank=628
+rawhand='JTJAA' hand='ZZWWT' clsf=(2, 'Z', 'W', 'T')	: res=98253778 += bid=826 * rank=629
+rawhand='AAQ7Q' hand='ZZXX7' clsf=(2, 'Z', 'X', '7')	: res=98773332 += bid=989 * rank=630
+rawhand='8AAQQ' hand='ZZXX8' clsf=(2, 'Z', 'X', '8')	: res=99396402 += bid=809 * rank=631
+rawhand='9AQAQ' hand='ZZXX9' clsf=(2, 'Z', 'X', '9')	: res=99906881 += bid=594 * rank=632
+rawhand='AJAQQ' hand='ZZXXW' clsf=(2, 'Z', 'X', 'W')	: res=100282289 += bid=531 * rank=633
+rawhand='KJAAK' hand='ZZYYW' clsf=(2, 'Z', 'Y', 'W')	: res=100618412 += bid=110 * rank=634
+rawhand='22342' hand='43222' clsf=(3, '2', '4', '3')	: res=100688152 += bid=545 * rank=635
+rawhand='32522' hand='53222' clsf=(3, '2', '5', '3')	: res=101034227 += bid=684 * rank=636
+rawhand='52224' hand='54222' clsf=(3, '2', '5', '4')	: res=101469251 += bid=55 * rank=637
+rawhand='92224' hand='94222' clsf=(3, '2', '9', '4')	: res=101504286 += bid=121 * rank=638
+rawhand='22279' hand='97222' clsf=(3, '2', '9', '7')	: res=101581484 += bid=104 * rank=639
+rawhand='2922T' hand='T9222' clsf=(3, '2', 'T', '9')	: res=101647940 += bid=1000 * rank=640
+rawhand='223J2' hand='W3222' clsf=(3, '2', 'W', '3')	: res=102287940 += bid=900 * rank=641
+rawhand='22J28' hand='W8222' clsf=(3, '2', 'W', '8')	: res=102864840 += bid=639 * rank=642
+rawhand='2TQ22' hand='XT222' clsf=(3, '2', 'X', 'T')	: res=103275078 += bid=987 * rank=643
+rawhand='222K6' hand='Y6222' clsf=(3, '2', 'Y', '6')	: res=103909719 += bid=861 * rank=644
+rawhand='K2282' hand='Y8222' clsf=(3, '2', 'Y', '8')	: res=104464203 += bid=552 * rank=645
+rawhand='JK222' hand='YW222' clsf=(3, '2', 'Y', 'W')	: res=104820243 += bid=397 * rank=646
+rawhand='22Q2K' hand='YX222' clsf=(3, '2', 'Y', 'X')	: res=105076705 += bid=637 * rank=647
+rawhand='22A2J' hand='ZW222' clsf=(3, '2', 'Z', 'W')	: res=105488844 += bid=799 * rank=648
+rawhand='Q222A' hand='ZX222' clsf=(3, '2', 'Z', 'X')	: res=106006596 += bid=126 * rank=649
+rawhand='37335' hand='75333' clsf=(3, '3', '7', '5')	: res=106088370 += bid=577 * rank=650
+rawhand='53339' hand='95333' clsf=(3, '3', '9', '5')	: res=106463420 += bid=762 * rank=651
+rawhand='93338' hand='98333' clsf=(3, '3', '9', '8')	: res=106959482 += bid=836 * rank=652
+rawhand='3J343' hand='W4333' clsf=(3, '3', 'W', '4')	: res=107504554 += bid=840 * rank=653
+rawhand='333J5' hand='W5333' clsf=(3, '3', 'W', '5')	: res=108053074 += bid=872 * rank=654
+rawhand='333TJ' hand='WT333' clsf=(3, '3', 'W', 'T')	: res=108623362 += bid=214 * rank=655
+rawhand='35Q33' hand='X5333' clsf=(3, '3', 'X', '5')	: res=108763532 += bid=58 * rank=656
+rawhand='8333K' hand='Y8333' clsf=(3, '3', 'Y', '8')	: res=108801580 += bid=361 * rank=657
+rawhand='3A373' hand='Z7333' clsf=(3, '3', 'Z', '7')	: res=109038757 += bid=278 * rank=658
+rawhand='33AJ3' hand='ZW333' clsf=(3, '3', 'Z', 'W')	: res=109221681 += bid=347 * rank=659
+rawhand='24443' hand='44432' clsf=(3, '4', '3', '2')	: res=109450354 += bid=344 * rank=660
+rawhand='64443' hand='64443' clsf=(3, '4', '6', '3')	: res=109677394 += bid=370 * rank=661
+rawhand='47445' hand='75444' clsf=(3, '4', '7', '5')	: res=109921964 += bid=724 * rank=662
+rawhand='44864' hand='86444' clsf=(3, '4', '8', '6')	: res=110401252 += bid=410 * rank=663
+rawhand='44874' hand='87444' clsf=(3, '4', '8', '7')	: res=110673082 += bid=357 * rank=664
+rawhand='96444' hand='96444' clsf=(3, '4', '9', '6')	: res=110910130 += bid=179 * rank=665
+rawhand='4T244' hand='T4442' clsf=(3, '4', 'T', '2')	: res=111029165 += bid=589 * rank=666
+rawhand='244J4' hand='W4442' clsf=(3, '4', 'W', '2')	: res=111421439 += bid=242 * rank=667
+rawhand='J4544' hand='W5444' clsf=(3, '4', 'W', '5')	: res=111582853 += bid=205 * rank=668
+rawhand='4J844' hand='W8444' clsf=(3, '4', 'W', '8')	: res=111719793 += bid=359 * rank=669
+rawhand='4447K' hand='Y7444' clsf=(3, '4', 'Y', '7')	: res=111959964 += bid=227 * rank=670
+rawhand='4944K' hand='Y9444' clsf=(3, '4', 'Y', '9')	: res=112112054 += bid=492 * rank=671
+rawhand='44JK4' hand='YW444' clsf=(3, '4', 'Y', 'W')	: res=112442186 += bid=720 * rank=672
+rawhand='4544A' hand='Z5444' clsf=(3, '4', 'Z', '5')	: res=112926026 += bid=680 * rank=673
+rawhand='74A44' hand='Z7444' clsf=(3, '4', 'Z', '7')	: res=113383666 += bid=945 * rank=674
+rawhand='T4A44' hand='ZT444' clsf=(3, '4', 'Z', 'T')	: res=114020596 += bid=23 * rank=675
+rawhand='55547' hand='75554' clsf=(3, '5', '7', '4')	: res=114036121 += bid=728 * rank=676
+rawhand='55258' hand='85552' clsf=(3, '5', '8', '2')	: res=114528249 += bid=766 * rank=677
+rawhand='55458' hand='85554' clsf=(3, '5', '8', '4')	: res=115046831 += bid=340 * rank=678
+rawhand='59855' hand='98555' clsf=(3, '5', '9', '8')	: res=115277351 += bid=906 * rank=679
+rawhand='5535T' hand='T5553' clsf=(3, '5', 'T', '3')	: res=115892525 += bid=504 * rank=680
+rawhand='45J55' hand='W5554' clsf=(3, '5', 'W', '4')	: res=116235245 += bid=80 * rank=681
+rawhand='58J55' hand='W8555' clsf=(3, '5', 'W', '8')	: res=116289725 += bid=625 * rank=682
+rawhand='5J595' hand='W9555' clsf=(3, '5', 'W', '9')	: res=116715975 += bid=859 * rank=683
+rawhand='5557Q' hand='X7555' clsf=(3, '5', 'X', '7')	: res=117302672 += bid=841 * rank=684
+rawhand='J55Q5' hand='XW555' clsf=(3, '5', 'X', 'W')	: res=117877916 += bid=714 * rank=685
+rawhand='58A55' hand='Z8555' clsf=(3, '5', 'Z', '8')	: res=118367006 += bid=311 * rank=686
+rawhand='A5595' hand='Z9555' clsf=(3, '5', 'Z', '9')	: res=118580352 += bid=262 * rank=687
+rawhand='5A55J' hand='ZW555' clsf=(3, '5', 'Z', 'W')	: res=118760346 += bid=48 * rank=688
+rawhand='5Q55A' hand='ZX555' clsf=(3, '5', 'Z', 'X')	: res=118793370 += bid=749 * rank=689
+rawhand='63646' hand='66643' clsf=(3, '6', '4', '3')	: res=119309431 += bid=293 * rank=690
+rawhand='45666' hand='66654' clsf=(3, '6', '5', '4')	: res=119511601 += bid=19 * rank=691
+rawhand='65686' hand='86665' clsf=(3, '6', '8', '5')	: res=119524730 += bid=298 * rank=692
+rawhand='69663' hand='96663' clsf=(3, '6', '9', '3')	: res=119730946 += bid=296 * rank=693
+rawhand='6664T' hand='T6664' clsf=(3, '6', 'T', '4')	: res=119936074 += bid=747 * rank=694
+rawhand='T6668' hand='T8666' clsf=(3, '6', 'T', '8')	: res=120454492 += bid=822 * rank=695
+rawhand='3666J' hand='W6663' clsf=(3, '6', 'W', '3')	: res=121025782 += bid=845 * rank=696
+rawhand='6466J' hand='W6664' clsf=(3, '6', 'W', '4')	: res=121613902 += bid=849 * rank=697
+rawhand='6J866' hand='W8666' clsf=(3, '6', 'W', '8')	: res=122205655 += bid=717 * rank=698
+rawhand='T66J6' hand='WT666' clsf=(3, '6', 'W', 'T')	: res=122706121 += bid=184 * rank=699
+rawhand='Q3666' hand='X6663' clsf=(3, '6', 'X', '3')	: res=122834737 += bid=119 * rank=700
+rawhand='6Q566' hand='X6665' clsf=(3, '6', 'X', '5')	: res=122918037 += bid=460 * rank=701
+rawhand='69Q66' hand='X9666' clsf=(3, '6', 'X', '9')	: res=123240497 += bid=690 * rank=702
+rawhand='Q6J66' hand='XW666' clsf=(3, '6', 'X', 'W')	: res=123724877 += bid=168 * rank=703
+rawhand='77754' hand='77754' clsf=(3, '7', '5', '4')	: res=123842981 += bid=848 * rank=704
+rawhand='77276' hand='77762' clsf=(3, '7', '6', '2')	: res=124439973 += bid=382 * rank=705
+rawhand='97477' hand='97774' clsf=(3, '7', '9', '4')	: res=124709283 += bid=332 * rank=706
+rawhand='75977' hand='97775' clsf=(3, '7', '9', '5')	: res=124943675 += bid=328 * rank=707
+rawhand='7T773' hand='T7773' clsf=(3, '7', 'T', '3')	: res=125175571 += bid=731 * rank=708
+rawhand='7T776' hand='T7776' clsf=(3, '7', 'T', '6')	: res=125693119 += bid=712 * rank=709
+rawhand='7772J' hand='W7772' clsf=(3, '7', 'W', '2')	: res=126197927 += bid=853 * rank=710
+rawhand='77J73' hand='W7773' clsf=(3, '7', 'W', '3')	: res=126803557 += bid=617 * rank=711
+rawhand='J7774' hand='W7774' clsf=(3, '7', 'W', '4')	: res=127242244 += bid=687 * rank=712
+rawhand='75J77' hand='W7775' clsf=(3, '7', 'W', '5')	: res=127731388 += bid=518 * rank=713
+rawhand='67J77' hand='W7776' clsf=(3, '7', 'W', '6')	: res=128100722 += bid=203 * rank=714
+rawhand='7T7J7' hand='WT777' clsf=(3, '7', 'W', 'T')	: res=128245664 += bid=44 * rank=715
+rawhand='777JQ' hand='XW777' clsf=(3, '7', 'X', 'W')	: res=128277124 += bid=188 * rank=716
+rawhand='3K777' hand='Y7773' clsf=(3, '7', 'Y', '3')	: res=128411732 += bid=532 * rank=717
+rawhand='477K7' hand='Y7774' clsf=(3, '7', 'Y', '4')	: res=128793176 += bid=26 * rank=718
+rawhand='K5777' hand='Y7775' clsf=(3, '7', 'Y', '5')	: res=128811844 += bid=833 * rank=719
+rawhand='J777K' hand='YW777' clsf=(3, '7', 'Y', 'W')	: res=129410771 += bid=930 * rank=720
+rawhand='Q7K77' hand='YX777' clsf=(3, '7', 'Y', 'X')	: res=130080371 += bid=991 * rank=721
+rawhand='34888' hand='88843' clsf=(3, '8', '4', '3')	: res=130794882 += bid=326 * rank=722
+rawhand='84858' hand='88854' clsf=(3, '8', '5', '4')	: res=131030254 += bid=788 * rank=723
+rawhand='37888' hand='88873' clsf=(3, '8', '7', '3')	: res=131599978 += bid=657 * rank=724
+rawhand='82898' hand='98882' clsf=(3, '8', '9', '2')	: res=132075646 += bid=883 * rank=725
+rawhand='884T8' hand='T8884' clsf=(3, '8', 'T', '4')	: res=132715821 += bid=526 * rank=726
+rawhand='888T7' hand='T8887' clsf=(3, '8', 'T', '7')	: res=133097697 += bid=491 * rank=727
+rawhand='28J88' hand='W8882' clsf=(3, '8', 'W', '2')	: res=133454654 += bid=315 * rank=728
+rawhand='J8588' hand='W8885' clsf=(3, '8', 'W', '5')	: res=133683974 += bid=142 * rank=729
+rawhand='J8788' hand='W8887' clsf=(3, '8', 'W', '7')	: res=133787492 += bid=979 * rank=730
+rawhand='J8988' hand='W9888' clsf=(3, '8', 'W', '9')	: res=134502162 += bid=884 * rank=731
+rawhand='K8838' hand='Y8883' clsf=(3, '8', 'Y', '3')	: res=135148366 += bid=830 * rank=732
+rawhand='88K85' hand='Y8885' clsf=(3, '8', 'Y', '5')	: res=135755926 += bid=593 * rank=733
+rawhand='8KJ88' hand='YW888' clsf=(3, '8', 'Y', 'W')	: res=136190595 += bid=919 * rank=734
+rawhand='6A888' hand='Z8886' clsf=(3, '8', 'Z', '6')	: res=136865141 += bid=404 * rank=735
+rawhand='A88J8' hand='ZW888' clsf=(3, '8', 'Z', 'W')	: res=137162081 += bid=757 * rank=736
+rawhand='99395' hand='99953' clsf=(3, '9', '5', '3')	: res=137719233 += bid=209 * rank=737
+rawhand='99649' hand='99964' clsf=(3, '9', '6', '4')	: res=137873266 += bid=1 * rank=738
+rawhand='99749' hand='99974' clsf=(3, '9', '7', '4')	: res=137874004 += bid=275 * rank=739
+rawhand='59997' hand='99975' clsf=(3, '9', '7', '5')	: res=138077229 += bid=787 * rank=740
+rawhand='99398' hand='99983' clsf=(3, '9', '8', '3')	: res=138659609 += bid=946 * rank=741
+rawhand='9499T' hand='T9994' clsf=(3, '9', 'T', '4')	: res=139360595 += bid=211 * rank=742
+rawhand='989T9' hand='T9998' clsf=(3, '9', 'T', '8')	: res=139517157 += bid=529 * rank=743
+rawhand='99J92' hand='W9992' clsf=(3, '9', 'W', '2')	: res=139910204 += bid=869 * rank=744
+rawhand='9399J' hand='W9993' clsf=(3, '9', 'W', '3')	: res=140556740 += bid=953 * rank=745
+rawhand='9J959' hand='W9995' clsf=(3, '9', 'W', '5')	: res=141266725 += bid=493 * rank=746
+rawhand='9J99T' hand='WT999' clsf=(3, '9', 'W', 'T')	: res=141634503 += bid=705 * rank=747
+rawhand='QT999' hand='XT999' clsf=(3, '9', 'X', 'T')	: res=142161138 += bid=669 * rank=748
+rawhand='999K2' hand='Y9992' clsf=(3, '9', 'Y', '2')	: res=142661550 += bid=21 * rank=749
+rawhand='998A9' hand='Z9998' clsf=(3, '9', 'Z', '8')	: res=142677279 += bid=561 * rank=750
+rawhand='999JA' hand='ZW999' clsf=(3, '9', 'Z', 'W')	: res=143098029 += bid=865 * rank=751
+rawhand='2TT4T' hand='TTT42' clsf=(3, 'T', '4', '2')	: res=143747644 += bid=162 * rank=752
+rawhand='TT3T9' hand='TTT93' clsf=(3, 'T', '9', '3')	: res=143869468 += bid=159 * rank=753
+rawhand='TTTJ5' hand='WTTT5' clsf=(3, 'T', 'W', '5')	: res=143989195 += bid=122 * rank=754
+rawhand='TTT9J' hand='WTTT9' clsf=(3, 'T', 'W', '9')	: res=144081183 += bid=189 * rank=755
+rawhand='TQ6TT' hand='XTTT6' clsf=(3, 'T', 'X', '6')	: res=144223878 += bid=541 * rank=756
+rawhand='QTT7T' hand='XTTT7' clsf=(3, 'T', 'X', '7')	: res=144632874 += bid=335 * rank=757
+rawhand='TQ8TT' hand='XTTT8' clsf=(3, 'T', 'X', '8')	: res=144886469 += bid=803 * rank=758
+rawhand='TKJTT' hand='YWTTT' clsf=(3, 'T', 'Y', 'W')	: res=145495143 += bid=386 * rank=759
+rawhand='J2J3J' hand='WWW32' clsf=(3, 'W', '3', '2')	: res=145788117 += bid=118 * rank=760
+rawhand='JJAJT' hand='ZWWWT' clsf=(3, 'W', 'Z', 'T')	: res=145877797 += bid=754 * rank=761
+rawhand='4Q2QQ' hand='XXX42' clsf=(3, 'X', '4', '2')	: res=146451591 += bid=548 * rank=762
+rawhand='QQQ46' hand='XXX64' clsf=(3, 'X', '6', '4')	: res=146869167 += bid=408 * rank=763
+rawhand='56QQQ' hand='XXX65' clsf=(3, 'X', '6', '5')	: res=147180471 += bid=149 * rank=764
+rawhand='QQQ83' hand='XXX83' clsf=(3, 'X', '8', '3')	: res=147294307 += bid=758 * rank=765
+rawhand='Q8QQ7' hand='XXX87' clsf=(3, 'X', '8', '7')	: res=147874177 += bid=45 * rank=766
+rawhand='97QQQ' hand='XXX97' clsf=(3, 'X', '9', '7')	: res=147908647 += bid=337 * rank=767
+rawhand='QQQT8' hand='XXXT8' clsf=(3, 'X', 'T', '8')	: res=148167126 += bid=607 * rank=768
+rawhand='QJQ2Q' hand='XXXW2' clsf=(3, 'X', 'W', '2')	: res=148633302 += bid=777 * rank=769
+rawhand='JQQ3Q' hand='XXXW3' clsf=(3, 'X', 'W', '3')	: res=149230815 += bid=11 * rank=770
+rawhand='QQQ3A' hand='ZXXX3' clsf=(3, 'X', 'Z', '3')	: res=149239285 += bid=820 * rank=771
+rawhand='QQQA7' hand='ZXXX7' clsf=(3, 'X', 'Z', '7')	: res=149871505 += bid=27 * rank=772
+rawhand='4K6KK' hand='YYY64' clsf=(3, 'Y', '6', '4')	: res=149892349 += bid=310 * rank=773
+rawhand='KKK37' hand='YYY73' clsf=(3, 'Y', '7', '3')	: res=150131979 += bid=994 * rank=774
+rawhand='K4K7K' hand='YYY74' clsf=(3, 'Y', '7', '4')	: res=150901335 += bid=333 * rank=775
+rawhand='K8K5K' hand='YYY85' clsf=(3, 'Y', '8', '5')	: res=151159410 += bid=120 * rank=776
+rawhand='68KKK' hand='YYY86' clsf=(3, 'Y', '8', '6')	: res=151252530 += bid=469 * rank=777
+rawhand='K7K8K' hand='YYY87' clsf=(3, 'Y', '8', '7')	: res=151616943 += bid=24 * rank=778
+rawhand='K9KK3' hand='YYY93' clsf=(3, 'Y', '9', '3')	: res=151635615 += bid=756 * rank=779
+rawhand='3KKKT' hand='YYYT3' clsf=(3, 'Y', 'T', '3')	: res=152224539 += bid=703 * rank=780
+rawhand='KKKT5' hand='YYYT5' clsf=(3, 'Y', 'T', '5')	: res=152772879 += bid=441 * rank=781
+rawhand='KKK6T' hand='YYYT6' clsf=(3, 'Y', 'T', '6')	: res=153117300 += bid=416 * rank=782
+rawhand='4KJKK' hand='YYYW4' clsf=(3, 'Y', 'W', '4')	: res=153442612 += bid=271 * rank=783
+rawhand='5KKJK' hand='YYYW5' clsf=(3, 'Y', 'W', '5')	: res=153654805 += bid=265 * rank=784
+rawhand='K6KKJ' hand='YYYW6' clsf=(3, 'Y', 'W', '6')	: res=153862565 += bid=454 * rank=785
+rawhand='K8JKK' hand='YYYW8' clsf=(3, 'Y', 'W', '8')	: res=154218955 += bid=351 * rank=786
+rawhand='KK9KJ' hand='YYYW9' clsf=(3, 'Y', 'W', '9')	: res=154494841 += bid=254 * rank=787
+rawhand='KKJKT' hand='YYYWT' clsf=(3, 'Y', 'W', 'T')	: res=154694739 += bid=785 * rank=788
+rawhand='6KQKK' hand='YYYX6' clsf=(3, 'Y', 'X', '6')	: res=155313319 += bid=584 * rank=789
+rawhand='KKQK7' hand='YYYX7' clsf=(3, 'Y', 'X', '7')	: res=155774095 += bid=810 * rank=790
+rawhand='K8QKK' hand='YYYX8' clsf=(3, 'Y', 'X', '8')	: res=156413995 += bid=981 * rank=791
+rawhand='AAA23' hand='ZZZ32' clsf=(3, 'Z', '3', '2')	: res=157189966 += bid=838 * rank=792
+rawhand='AA2A8' hand='ZZZ82' clsf=(3, 'Z', '8', '2')	: res=157853662 += bid=73 * rank=793
+rawhand='AA7A8' hand='ZZZ87' clsf=(3, 'Z', '8', '7')	: res=157911551 += bid=358 * rank=794
+rawhand='9AAA2' hand='ZZZ92' clsf=(3, 'Z', '9', '2')	: res=158195803 += bid=343 * rank=795
+rawhand='9AAA3' hand='ZZZ93' clsf=(3, 'Z', '9', '3')	: res=158468488 += bid=374 * rank=796
+rawhand='69AAA' hand='ZZZ96' clsf=(3, 'Z', '9', '6')	: res=158766192 += bid=430 * rank=797
+rawhand='AAJ2A' hand='ZZZW2' clsf=(3, 'Z', 'W', '2')	: res=159108902 += bid=165 * rank=798
+rawhand='AA3JA' hand='ZZZW3' clsf=(3, 'Z', 'W', '3')	: res=159240572 += bid=51 * rank=799
+rawhand='AJA6A' hand='ZZZW6' clsf=(3, 'Z', 'W', '6')	: res=159281321 += bid=626 * rank=800
+rawhand='AJA7A' hand='ZZZW7' clsf=(3, 'Z', 'W', '7')	: res=159782121 += bid=874 * rank=801
+rawhand='J8AAA' hand='ZZZW8' clsf=(3, 'Z', 'W', '8')	: res=160482195 += bid=667 * rank=802
+rawhand='9AAJA' hand='ZZZW9' clsf=(3, 'Z', 'W', '9')	: res=161017129 += bid=284 * rank=803
+rawhand='TAAJA' hand='ZZZWT' clsf=(3, 'Z', 'W', 'T')	: res=161245181 += bid=223 * rank=804
+rawhand='K2AAA' hand='ZZZY2' clsf=(3, 'Z', 'Y', '2')	: res=161424473 += bid=514 * rank=805
+rawhand='AKA4A' hand='ZZZY4' clsf=(3, 'Z', 'Y', '4')	: res=161838243 += bid=198 * rank=806
+rawhand='A5AKA' hand='ZZZY5' clsf=(3, 'Z', 'Y', '5')	: res=161997831 += bid=148 * rank=807
+rawhand='AAJKA' hand='ZZZYW' clsf=(3, 'Z', 'Y', 'W')	: res=162117267 += bid=182 * rank=808
+rawhand='AAAKQ' hand='ZZZYX' clsf=(3, 'Z', 'Y', 'X')	: res=162264323 += bid=376 * rank=809
+rawhand='42242' hand='44222' clsf=(4, '2', '4')	: res=162568507 += bid=226 * rank=810
+rawhand='25522' hand='55222' clsf=(4, '2', '5')	: res=162751567 += bid=923 * rank=811
+rawhand='26226' hand='66222' clsf=(4, '2', '6')	: res=163500120 += bid=940 * rank=812
+rawhand='T222T' hand='TT222' clsf=(4, '2', 'T')	: res=164263400 += bid=87 * rank=813
+rawhand='JJ222' hand='WW222' clsf=(4, '2', 'W')	: res=164334131 += bid=462 * rank=814
+rawhand='2K22K' hand='YY222' clsf=(4, '2', 'Y')	: res=164710199 += bid=377 * rank=815
+rawhand='A22A2' hand='ZZ222' clsf=(4, '2', 'Z')	: res=165017454 += bid=229 * rank=816
+rawhand='32323' hand='33322' clsf=(4, '3', '2')	: res=165204318 += bid=259 * rank=817
+rawhand='36336' hand='66333' clsf=(4, '3', '6')	: res=165415921 += bid=478 * rank=818
+rawhand='73373' hand='77333' clsf=(4, '3', '7')	: res=165806925 += bid=107 * rank=819
+rawhand='33838' hand='88333' clsf=(4, '3', '8')	: res=165894558 += bid=638 * rank=820
+rawhand='39339' hand='99333' clsf=(4, '3', '9')	: res=166417718 += bid=911 * rank=821
+rawhand='JJ333' hand='WW333' clsf=(4, '3', 'W')	: res=167165649 += bid=176 * rank=822
+rawhand='33QQ3' hand='XX333' clsf=(4, '3', 'X')	: res=167310321 += bid=471 * rank=823
+rawhand='42442' hand='44422' clsf=(4, '4', '2')	: res=167697954 += bid=901 * rank=824
+rawhand='44343' hand='44433' clsf=(4, '4', '3')	: res=168440378 += bid=999 * rank=825
+rawhand='55444' hand='55444' clsf=(4, '4', '5')	: res=169264553 += bid=403 * rank=826
+rawhand='46644' hand='66444' clsf=(4, '4', '6')	: res=169597431 += bid=331 * rank=827
+rawhand='44774' hand='77444' clsf=(4, '4', '7')	: res=169871168 += bid=957 * rank=828
+rawhand='48844' hand='88444' clsf=(4, '4', '8')	: res=170663564 += bid=323 * rank=829
+rawhand='J4J44' hand='WW444' clsf=(4, '4', 'W')	: res=170931331 += bid=171 * rank=830
+rawhand='25255' hand='55522' clsf=(4, '5', '2')	: res=171073261 += bid=913 * rank=831
+rawhand='55353' hand='55533' clsf=(4, '5', '3')	: res=171831964 += bid=926 * rank=832
+rawhand='54455' hand='55544' clsf=(4, '5', '4')	: res=172602396 += bid=570 * rank=833
+rawhand='55858' hand='88555' clsf=(4, '5', '8')	: res=173077206 += bid=113 * rank=834
+rawhand='5TT55' hand='TT555' clsf=(4, '5', 'T')	: res=173171448 += bid=990 * rank=835
+rawhand='J55J5' hand='WW555' clsf=(4, '5', 'W')	: res=173998098 += bid=281 * rank=836
+rawhand='QQ555' hand='XX555' clsf=(4, '5', 'X')	: res=174233014 += bid=596 * rank=837
+rawhand='26266' hand='66622' clsf=(4, '6', '2')	: res=174731866 += bid=187 * rank=838
+rawhand='66363' hand='66633' clsf=(4, '6', '3')	: res=174888572 += bid=52 * rank=839
+rawhand='66464' hand='66644' clsf=(4, '6', '4')	: res=174932200 += bid=522 * rank=840
+rawhand='66677' hand='77666' clsf=(4, '6', '7')	: res=175370680 += bid=346 * rank=841
+rawhand='66868' hand='88666' clsf=(4, '6', '8')	: res=175661666 += bid=572 * rank=842
+rawhand='69669' hand='99666' clsf=(4, '6', '9')	: res=176143290 += bid=272 * rank=843
+rawhand='66JJ6' hand='WW666' clsf=(4, '6', 'W')	: res=176372586 += bid=210 * rank=844
+rawhand='66Q6Q' hand='XX666' clsf=(4, '6', 'X')	: res=176549826 += bid=131 * rank=845
+rawhand='66A6A' hand='ZZ666' clsf=(4, '6', 'Z')	: res=176660521 += bid=312 * rank=846
+rawhand='22777' hand='77722' clsf=(4, '7', '2')	: res=176924473 += bid=102 * rank=847
+rawhand='37773' hand='77733' clsf=(4, '7', '3')	: res=177010867 += bid=602 * rank=848
+rawhand='57775' hand='77755' clsf=(4, '7', '5')	: res=177521363 += bid=258 * rank=849
+rawhand='76677' hand='77766' clsf=(4, '7', '6')	: res=177740405 += bid=373 * rank=850
+rawhand='87778' hand='88777' clsf=(4, '7', '8')	: res=178057455 += bid=499 * rank=851
+rawhand='77979' hand='99777' clsf=(4, '7', '9')	: res=178482104 += bid=222 * rank=852
+rawhand='JJ777' hand='WW777' clsf=(4, '7', 'W')	: res=178671248 += bid=71 * rank=853
+rawhand='7Q7Q7' hand='XX777' clsf=(4, '7', 'X')	: res=178731811 += bid=537 * rank=854
+rawhand='7AA77' hand='ZZ777' clsf=(4, '7', 'Z')	: res=179190409 += bid=881 * rank=855
+rawhand='84488' hand='88844' clsf=(4, '8', '4')	: res=179943664 += bid=234 * rank=856
+rawhand='88558' hand='88855' clsf=(4, '8', '5')	: res=180143968 += bid=46 * rank=857
+rawhand='87788' hand='88877' clsf=(4, '8', '7')	: res=180183390 += bid=384 * rank=858
+rawhand='88989' hand='99888' clsf=(4, '8', '9')	: res=180512862 += bid=418 * rank=859
+rawhand='8TT88' hand='TT888' clsf=(4, '8', 'T')	: res=180871924 += bid=41 * rank=860
+rawhand='8QQ88' hand='XX888' clsf=(4, '8', 'X')	: res=180907184 += bid=660 * rank=861
+rawhand='KK888' hand='YY888' clsf=(4, '8', 'Y')	: res=181475444 += bid=319 * rank=862
+rawhand='888AA' hand='ZZ888' clsf=(4, '8', 'Z')	: res=181750422 += bid=790 * rank=863
+rawhand='29929' hand='99922' clsf=(4, '9', '2')	: res=182432192 += bid=619 * rank=864
+rawhand='99933' hand='99933' clsf=(4, '9', '3')	: res=182967008 += bid=433 * rank=865
+rawhand='59995' hand='99955' clsf=(4, '9', '5')	: res=183341553 += bid=84 * rank=866
+rawhand='99977' hand='99977' clsf=(4, '9', '7')	: res=183414297 += bid=701 * rank=867
+rawhand='98998' hand='99988' clsf=(4, '9', '8')	: res=184022064 += bid=912 * rank=868
+rawhand='JJ999' hand='WW999' clsf=(4, '9', 'W')	: res=184813680 += bid=549 * rank=869
+rawhand='3TTT3' hand='TTT33' clsf=(4, 'T', '3')	: res=185290761 += bid=606 * rank=870
+rawhand='55TTT' hand='TTT55' clsf=(4, 'T', '5')	: res=185817981 += bid=647 * rank=871
+rawhand='T7TT7' hand='TTT77' clsf=(4, 'T', '7')	: res=186381518 += bid=407 * rank=872
+rawhand='TTTJJ' hand='WWTTT' clsf=(4, 'T', 'W')	: res=186736422 += bid=693 * rank=873
+rawhand='TTQTQ' hand='XXTTT' clsf=(4, 'T', 'X')	: res=187341411 += bid=35 * rank=874
+rawhand='2JJ2J' hand='WWW22' clsf=(4, 'W', '2')	: res=187372001 += bid=726 * rank=875
+rawhand='AJJJA' hand='ZZWWW' clsf=(4, 'W', 'Z')	: res=188007251 += bid=697 * rank=876
+rawhand='QQ2Q2' hand='XXX22' clsf=(4, 'X', '2')	: res=188617823 += bid=390 * rank=877
+rawhand='Q3Q3Q' hand='XXX33' clsf=(4, 'X', '3')	: res=188959853 += bid=707 * rank=878
+rawhand='Q6QQ6' hand='XXX66' clsf=(4, 'X', '6')	: res=189580599 += bid=852 * rank=879
+rawhand='88QQQ' hand='XXX88' clsf=(4, 'X', '8')	: res=190329507 += bid=828 * rank=880
+rawhand='QTQQT' hand='XXXTT' clsf=(4, 'X', 'T')	: res=191058147 += bid=164 * rank=881
+rawhand='QJQQJ' hand='XXXWW' clsf=(4, 'X', 'W')	: res=191202631 += bid=918 * rank=882
+rawhand='QQQKK' hand='YYXXX' clsf=(4, 'X', 'Y')	: res=192012307 += bid=931 * rank=883
+rawhand='AQQAQ' hand='ZZXXX' clsf=(4, 'X', 'Z')	: res=192834380 += bid=779 * rank=884
+rawhand='K2K2K' hand='YYY22' clsf=(4, 'Y', '2')	: res=193523016 += bid=150 * rank=885
+rawhand='KK4K4' hand='YYY44' clsf=(4, 'Y', '4')	: res=193655766 += bid=675 * rank=886
+rawhand='5KK5K' hand='YYY55' clsf=(4, 'Y', '5')	: res=194253816 += bid=535 * rank=887
+rawhand='KK77K' hand='YYY77' clsf=(4, 'Y', '7')	: res=194728361 += bid=301 * rank=888
+rawhand='KTKTK' hand='YYYTT' clsf=(4, 'Y', 'T')	: res=194995649 += bid=576 * rank=889
+rawhand='KJJKK' hand='YYYWW' clsf=(4, 'Y', 'W')	: res=195507713 += bid=611 * rank=890
+rawhand='KKKAA' hand='ZZYYY' clsf=(4, 'Y', 'Z')	: res=196051503 += bid=175 * rank=891
+rawhand='AA4A4' hand='ZZZ44' clsf=(4, 'Z', '4')	: res=196207428 += bid=907 * rank=892
+rawhand='6AAA6' hand='ZZZ66' clsf=(4, 'Z', '6')	: res=197016472 += bid=843 * rank=893
+rawhand='77AAA' hand='ZZZ77' clsf=(4, 'Z', '7')	: res=197769271 += bid=666 * rank=894
+rawhand='AA88A' hand='ZZZ88' clsf=(4, 'Z', '8')	: res=198364675 += bid=813 * rank=895
+rawhand='ATTAA' hand='ZZZTT' clsf=(4, 'Z', 'T')	: res=199092310 += bid=290 * rank=896
+rawhand='JJAAA' hand='ZZZWW' clsf=(4, 'Z', 'W')	: res=199352150 += bid=855 * rank=897
+rawhand='AQQAA' hand='ZZZXX' clsf=(4, 'Z', 'X')	: res=200119085 += bid=656 * rank=898
+rawhand='22232' hand='32222' clsf=(5, '2', '3')	: res=200708173 += bid=9 * rank=899
+rawhand='24222' hand='42222' clsf=(5, '2', '4')	: res=200716264 += bid=807 * rank=900
+rawhand='22226' hand='62222' clsf=(5, '2', '6')	: res=201442564 += bid=781 * rank=901
+rawhand='27222' hand='72222' clsf=(5, '2', '7')	: res=202146245 += bid=305 * rank=902
+rawhand='2J222' hand='W2222' clsf=(5, '2', 'W')	: res=202421355 += bid=354 * rank=903
+rawhand='Q2222' hand='X2222' clsf=(5, '2', 'X')	: res=202741017 += bid=604 * rank=904
+rawhand='22A22' hand='Z2222' clsf=(5, '2', 'Z')	: res=203287033 += bid=207 * rank=905
+rawhand='23333' hand='33332' clsf=(5, '3', '2')	: res=203474368 += bid=378 * rank=906
+rawhand='33335' hand='53333' clsf=(5, '3', '5')	: res=203816836 += bid=400 * rank=907
+rawhand='37333' hand='73333' clsf=(5, '3', '7')	: res=204179636 += bid=802 * rank=908
+rawhand='33933' hand='93333' clsf=(5, '3', '9')	: res=204907852 += bid=882 * rank=909
+rawhand='3J333' hand='W3333' clsf=(5, '3', 'W')	: res=205709590 += bid=681 * rank=910
+rawhand='333Q3' hand='X3333' clsf=(5, '3', 'X')	: res=206329300 += bid=496 * rank=911
+rawhand='K3333' hand='Y3333' clsf=(5, '3', 'Y')	: res=206781156 += bid=25 * rank=912
+rawhand='3333A' hand='Z3333' clsf=(5, '3', 'Z')	: res=206803956 += bid=472 * rank=913
+rawhand='44424' hand='44442' clsf=(5, '4', '2')	: res=207234892 += bid=228 * rank=914
+rawhand='44464' hand='64444' clsf=(5, '4', '6')	: res=207443284 += bid=517 * rank=915
+rawhand='44474' hand='74444' clsf=(5, '4', '7')	: res=207916339 += bid=240 * rank=916
+rawhand='44484' hand='84444' clsf=(5, '4', '8')	: res=208136179 += bid=212 * rank=917
+rawhand='T4444' hand='T4444' clsf=(5, '4', 'T')	: res=208330583 += bid=533 * rank=918
+rawhand='444J4' hand='W4444' clsf=(5, '4', 'W')	: res=208819877 += bid=998 * rank=919
+rawhand='4Q444' hand='X4444' clsf=(5, '4', 'X')	: res=209737039 += bid=362 * rank=920
+rawhand='K4444' hand='Y4444' clsf=(5, '4', 'Y')	: res=210070079 += bid=868 * rank=921
+rawhand='55565' hand='65555' clsf=(5, '5', '6')	: res=210869507 += bid=342 * rank=922
+rawhand='57555' hand='75555' clsf=(5, '5', '7')	: res=211184831 += bid=482 * rank=923
+rawhand='85555' hand='85555' clsf=(5, '5', '8')	: res=211629717 += bid=784 * rank=924
+rawhand='95555' hand='95555' clsf=(5, '5', '9')	: res=212354133 += bid=307 * rank=925
+rawhand='5T555' hand='T5555' clsf=(5, '5', 'T')	: res=212638108 += bid=938 * rank=926
+rawhand='555J5' hand='W5555' clsf=(5, '5', 'W')	: res=213506696 += bid=592 * rank=927
+rawhand='555K5' hand='Y5555' clsf=(5, '5', 'Y')	: res=214055480 += bid=976 * rank=928
+rawhand='36666' hand='66663' clsf=(5, '6', '3')	: res=214961208 += bid=646 * rank=929
+rawhand='66466' hand='66664' clsf=(5, '6', '4')	: res=215561342 += bid=421 * rank=930
+rawhand='65666' hand='66665' clsf=(5, '6', '5')	: res=215952872 += bid=111 * rank=931
+rawhand='67666' hand='76666' clsf=(5, '6', '7')	: res=216056213 += bid=662 * rank=932
+rawhand='68666' hand='86666' clsf=(5, '6', '8')	: res=216673197 += bid=423 * rank=933
+rawhand='66696' hand='96666' clsf=(5, '6', '9')	: res=217067856 += bid=66 * rank=934
+rawhand='6666T' hand='T6666' clsf=(5, '6', 'T')	: res=217129500 += bid=197 * rank=935
+rawhand='666J6' hand='W6666' clsf=(5, '6', 'W')	: res=217313695 += bid=479 * rank=936
+rawhand='6Q666' hand='X6666' clsf=(5, '6', 'X')	: res=217762039 += bid=438 * rank=937
+rawhand='6666K' hand='Y6666' clsf=(5, '6', 'Y')	: res=218172445 += bid=137 * rank=938
+rawhand='6666A' hand='Z6666' clsf=(5, '6', 'Z')	: res=218300951 += bid=480 * rank=939
+rawhand='73777' hand='77773' clsf=(5, '7', '3')	: res=218751671 += bid=571 * rank=940
+rawhand='77747' hand='77774' clsf=(5, '7', '4')	: res=219288411 += bid=174 * rank=941
+rawhand='77577' hand='77775' clsf=(5, '7', '5')	: res=219452145 += bid=22 * rank=942
+rawhand='77677' hand='77776' clsf=(5, '7', '6')	: res=219472869 += bid=698 * rank=943
+rawhand='97777' hand='97777' clsf=(5, '7', '9')	: res=220131083 += bid=776 * rank=944
+rawhand='777T7' hand='T7777' clsf=(5, '7', 'T')	: res=220863627 += bid=769 * rank=945
+rawhand='7J777' hand='W7777' clsf=(5, '7', 'W')	: res=221590332 += bid=736 * rank=946
+rawhand='88288' hand='88882' clsf=(5, '8', '2')	: res=222286588 += bid=995 * rank=947
+rawhand='88883' hand='88883' clsf=(5, '8', '3')	: res=223228853 += bid=702 * rank=948
+rawhand='88878' hand='88887' clsf=(5, '8', '7')	: res=223894349 += bid=18 * rank=949
+rawhand='88889' hand='98888' clsf=(5, '8', '9')	: res=223911431 += bid=937 * rank=950
+rawhand='T8888' hand='T8888' clsf=(5, '8', 'T')	: res=224801581 += bid=12 * rank=951
+rawhand='88J88' hand='W8888' clsf=(5, '8', 'W')	: res=224812993 += bid=379 * rank=952
+rawhand='888Q8' hand='X8888' clsf=(5, '8', 'X')	: res=225173801 += bid=863 * rank=953
+rawhand='888K8' hand='Y8888' clsf=(5, '8', 'Y')	: res=225996240 += bid=654 * rank=954
+rawhand='88A88' hand='Z8888' clsf=(5, '8', 'Z')	: res=226620156 += bid=597 * rank=955
+rawhand='39999' hand='99993' clsf=(5, '9', '3')	: res=227190291 += bid=857 * rank=956
+rawhand='94999' hand='99994' clsf=(5, '9', '4')	: res=228009583 += bid=306 * rank=957
+rawhand='99959' hand='99995' clsf=(5, '9', '5')	: res=228302425 += bid=867 * rank=958
+rawhand='89999' hand='99998' clsf=(5, '9', '8')	: res=229133011 += bid=96 * rank=959
+rawhand='99T99' hand='T9999' clsf=(5, '9', 'T')	: res=229225075 += bid=948 * rank=960
+rawhand='99J99' hand='W9999' clsf=(5, '9', 'W')	: res=230135155 += bid=69 * rank=961
+rawhand='Q9999' hand='X9999' clsf=(5, '9', 'X')	: res=230201464 += bid=6 * rank=962
+rawhand='9K999' hand='Y9999' clsf=(5, '9', 'Y')	: res=230207236 += bid=573 * rank=963
+rawhand='9A999' hand='Z9999' clsf=(5, '9', 'Z')	: res=230759035 += bid=916 * rank=964
+rawhand='T6TTT' hand='TTTT6' clsf=(5, 'T', '6')	: res=231642059 += bid=932 * rank=965
+rawhand='TTT7T' hand='TTTT7' clsf=(5, 'T', '7')	: res=232541439 += bid=356 * rank=966
+rawhand='T9TTT' hand='TTTT9' clsf=(5, 'T', '9')	: res=232885335 += bid=195 * rank=967
+rawhand='TTTTJ' hand='WTTTT' clsf=(5, 'T', 'W')	: res=233073900 += bid=399 * rank=968
+rawhand='KTTTT' hand='YTTTT' clsf=(5, 'T', 'Y')	: res=233460132 += bid=366 * rank=969
+rawhand='2JJJJ' hand='WWWW2' clsf=(5, 'W', '2')	: res=233814786 += bid=765 * rank=970
+rawhand='8JJJJ' hand='WWWW8' clsf=(5, 'W', '8')	: res=234556836 += bid=610 * rank=971
+rawhand='2QQQQ' hand='XXXX2' clsf=(5, 'X', '2')	: res=235149146 += bid=194 * rank=972
+rawhand='Q5QQQ' hand='XXXX5' clsf=(5, 'X', '5')	: res=235337714 += bid=125 * rank=973
+rawhand='QQQ6Q' hand='XXXX6' clsf=(5, 'X', '6')	: res=235459339 += bid=47 * rank=974
+rawhand='QQQQ7' hand='XXXX7' clsf=(5, 'X', '7')	: res=235505117 += bid=808 * rank=975
+rawhand='8QQQQ' hand='XXXX8' clsf=(5, 'X', '8')	: res=236292917 += bid=101 * rank=976
+rawhand='QQQ9Q' hand='XXXX9' clsf=(5, 'X', '9')	: res=236391493 += bid=350 * rank=977
+rawhand='QTQQQ' hand='XXXXT' clsf=(5, 'X', 'T')	: res=236733443 += bid=299 * rank=978
+rawhand='QJQQQ' hand='XXXXW' clsf=(5, 'X', 'W')	: res=237025865 += bid=434 * rank=979
+rawhand='QQQQK' hand='YXXXX' clsf=(5, 'X', 'Y')	: res=237450751 += bid=585 * rank=980
+rawhand='KKKK2' hand='YYYY2' clsf=(5, 'Y', '2')	: res=238024051 += bid=664 * rank=981
+rawhand='KKK3K' hand='YYYY3' clsf=(5, 'Y', '3')	: res=238675435 += bid=896 * rank=982
+rawhand='K4KKK' hand='YYYY4' clsf=(5, 'Y', '4')	: res=239555307 += bid=980 * rank=983
+rawhand='KKKK7' hand='YYYY7' clsf=(5, 'Y', '7')	: res=240518647 += bid=773 * rank=984
+rawhand='K8KKK' hand='YYYY8' clsf=(5, 'Y', '8')	: res=241279279 += bid=56 * rank=985
+rawhand='KK9KK' hand='YYYY9' clsf=(5, 'Y', '9')	: res=241334439 += bid=831 * rank=986
+rawhand='KTKKK' hand='YYYYT' clsf=(5, 'Y', 'T')	: res=242153805 += bid=83 * rank=987
+rawhand='KJKKK' hand='YYYYW' clsf=(5, 'Y', 'W')	: res=242235726 += bid=190 * rank=988
+rawhand='QKKKK' hand='YYYYX' clsf=(5, 'Y', 'X')	: res=242423446 += bid=247 * rank=989
+rawhand='KKAKK' hand='ZYYYY' clsf=(5, 'Y', 'Z')	: res=242667729 += bid=579 * rank=990
+rawhand='A2AAA' hand='ZZZZ2' clsf=(5, 'Z', '2')	: res=243240939 += bid=219 * rank=991
+rawhand='A3AAA' hand='ZZZZ3' clsf=(5, 'Z', '3')	: res=243457968 += bid=216 * rank=992
+rawhand='AAAA4' hand='ZZZZ4' clsf=(5, 'Z', '4')	: res=243672240 += bid=488 * rank=993
+rawhand='5AAAA' hand='ZZZZ5' clsf=(5, 'Z', '5')	: res=244156824 += bid=949 * rank=994
+rawhand='AA7AA' hand='ZZZZ7' clsf=(5, 'Z', '7')	: res=245100130 += bid=157 * rank=995
+rawhand='AAAA9' hand='ZZZZ9' clsf=(5, 'Z', '9')	: res=245256345 += bid=387 * rank=996
+rawhand='AAAAJ' hand='ZZZZW' clsf=(5, 'Z', 'W')	: res=245641797 += bid=738 * rank=997
+rawhand='QAAAA' hand='ZZZZX' clsf=(5, 'Z', 'X')	: res=246377583 += bid=958 * rank=998
+rawhand='AAAKA' hand='ZZZZY' clsf=(5, 'Z', 'Y')	: res=247333667 += bid=673 * rank=999
+rawhand='JJJJJ' hand='WWWWW' clsf=(6, 'W')	: res=248005994 += bid=440 * rank=1000
+248445994

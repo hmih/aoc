@@ -1,35 +1,35 @@
 from pprint import pprint
+from typing import Iterable
 
 Range = tuple[int, int]
-Ranges = list[Range]
+Ranges = Iterable[Range]
 Entry = tuple[int, int, int]
-Entries = list[Entry]
-Map = tuple[str, Entries]
+Entries = Iterable[Entry]
 
 
-def mapper(ranges: Ranges, mapping: Map) -> Ranges:
-    name, vals = mapping
-    print(f"{name=} takes {ranges}")
+def apply_maps(seed: Range, maps: dict[str, Entries]) -> Ranges:
     res = []
+    work = {seed}
+    done = set()
+    seen = {}
 
-    for entry in vals:
-        dst, lo, size = entry
-        hi = lo + size - 1
-        assert lo <= hi, f"Bad map interval: {name=} {lo=} {hi=}"
+    # seeds: start, end, amount
+    # maps: lo, hi, size
+    for name, vals in maps.items():
+        print(f"{name=} got {work=}")
 
-        tmp = []
+        while work:
+            start, end = work.pop()
 
-        for start, end in ranges:
-            assert start <= end, f"Bad seed range: {name=} {start=} {end=}"
-            (mapped, unmapped) = split(start, end, lo, hi, dst)
-            res.extend(mapped)
-            tmp.extend(unmapped)
+            for dst, lo, size in vals:
+                hi = li + size - 1
 
-    print(f"{name=} produces {res}")
+        print(f"{name=} made {done=}")
+
     return res
 
 
-def split(start, end, lo, hi, dst) -> tuple[Ranges, Ranges]:
+def split(start, end, lo, hi, dst):
     res: Ranges = []
 
     # 1) ignore lower & upper: low outside / high outside
@@ -83,25 +83,9 @@ def read_maps(lines):
     return res
 
 
-def test_splits():
-    tests = [
-        ([1, 3, 4, 6, 4], []),
-        ([7, 9, 4, 6, 4], []),
-        ([5, 9, 4, 6, 10], [(11, 12), (7, 9)]),
-        ([1, 2, 2, 3, 4], [(1, 1), (4, 4)]),
-        ([1, 4, 2, 3, 4], [(1, 1), (4, 5), (4, 4)]),
-    ]
-
-    for g, e in tests:
-        tmp = split(*g)
-        assert tmp == e, f"{tmp} != {e}"
-
-
 def run():
     maps = {}
     seeds = []
-
-    test_splits()
 
     with open("in") as f:
         lines = [l.strip() for l in f.readlines()]
@@ -112,16 +96,10 @@ def run():
 
     finals = []
 
-    # seeds: start, end, amount
-    # maps: lo, hi, size
     for seed, amount in seeds:
-        ranges = [(seed, seed + amount - 1)]
-
-        for name, vals in maps.items():
-            tmp = mapper(ranges, (name, vals))
-            ranges = tmp
-
-        finals.extend(ranges)
+        initial = (seed, seed + amount - 1)
+        locs = apply_maps(initial, maps)
+        finals.extend(locs)
 
     # 60294664
     res = sorted(finals)
